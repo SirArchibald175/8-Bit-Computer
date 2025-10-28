@@ -62,27 +62,196 @@
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="74">main</text>
       <circ-anchor facing="east" x="50" y="50"/>
     </appear>
-    <comp loc="(440,270)" name="InputAndMAR"/>
-    <comp loc="(440,410)" name="RAM16x8"/>
-    <comp loc="(440,530)" name="InstructionRegister"/>
-    <comp loc="(440,690)" name="Controller"/>
-    <comp loc="(550,90)" name="ProgramCounter"/>
-    <comp loc="(700,620)" name="OutputRegister"/>
-    <comp loc="(760,710)" name="BinaryDisplay"/>
-    <comp loc="(790,120)" name="AccumulatorA"/>
-    <comp loc="(790,280)" name="AdderSubtractor"/>
-    <comp loc="(790,400)" name="BRegister"/>
-    <wire from="(550,390)" to="(610,390)"/>
-    <wire from="(550,500)" to="(610,500)"/>
-    <wire from="(610,390)" to="(610,500)"/>
-    <wire from="(610,500)" to="(610,670)"/>
-    <wire from="(610,90)" to="(610,390)"/>
+    <comp lib="0" loc="(460,1020)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="facing" val="south"/>
+      <a name="fanout" val="12"/>
+      <a name="incoming" val="12"/>
+    </comp>
+    <comp lib="0" loc="(600,290)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="facing" val="west"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(600,730)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="facing" val="west"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(610,440)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="facing" val="west"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp loc="(460,290)" name="ProgramCounter"/>
+    <comp loc="(460,440)" name="InputAndMAR"/>
+    <comp loc="(460,580)" name="RAM16x8"/>
+    <comp loc="(460,700)" name="InstructionRegister"/>
+    <comp loc="(460,900)" name="Controller"/>
+    <comp loc="(810,290)" name="AccumulatorA"/>
+    <comp loc="(810,440)" name="AdderSubtractor"/>
+    <comp loc="(810,560)" name="BRegister"/>
+    <comp loc="(810,690)" name="OutputRegister"/>
+    <comp loc="(810,780)" name="BinaryDisplay"/>
+    <wire from="(1010,160)" to="(1010,880)"/>
+    <wire from="(1030,140)" to="(1030,900)"/>
+    <wire from="(1050,120)" to="(1050,920)"/>
+    <wire from="(200,120)" to="(1050,120)"/>
+    <wire from="(200,120)" to="(200,300)"/>
+    <wire from="(200,300)" to="(350,300)"/>
+    <wire from="(220,140)" to="(1030,140)"/>
+    <wire from="(220,140)" to="(220,720)"/>
+    <wire from="(220,720)" to="(350,720)"/>
+    <wire from="(240,160)" to="(1010,160)"/>
+    <wire from="(240,160)" to="(240,280)"/>
+    <wire from="(240,280)" to="(350,280)"/>
+    <wire from="(260,180)" to="(260,460)"/>
+    <wire from="(260,180)" to="(990,180)"/>
+    <wire from="(260,460)" to="(260,700)"/>
+    <wire from="(260,460)" to="(350,460)"/>
+    <wire from="(260,700)" to="(350,700)"/>
+    <wire from="(290,1100)" to="(450,1100)"/>
+    <wire from="(290,740)" to="(290,1100)"/>
+    <wire from="(290,740)" to="(350,740)"/>
+    <wire from="(300,1090)" to="(440,1090)"/>
+    <wire from="(300,660)" to="(300,1090)"/>
+    <wire from="(300,660)" to="(350,660)"/>
+    <wire from="(310,1080)" to="(430,1080)"/>
+    <wire from="(310,600)" to="(310,1080)"/>
+    <wire from="(310,600)" to="(350,600)"/>
+    <wire from="(320,1070)" to="(420,1070)"/>
+    <wire from="(320,420)" to="(320,1070)"/>
+    <wire from="(320,420)" to="(350,420)"/>
+    <wire from="(330,1060)" to="(410,1060)"/>
+    <wire from="(330,320)" to="(330,1060)"/>
+    <wire from="(330,320)" to="(350,320)"/>
+    <wire from="(340,1050)" to="(400,1050)"/>
+    <wire from="(340,260)" to="(340,1050)"/>
+    <wire from="(340,260)" to="(350,260)"/>
+    <wire from="(400,1040)" to="(400,1050)"/>
+    <wire from="(410,1040)" to="(410,1060)"/>
+    <wire from="(420,1040)" to="(420,1070)"/>
+    <wire from="(420,500)" to="(420,540)"/>
+    <wire from="(430,1040)" to="(430,1080)"/>
+    <wire from="(440,1040)" to="(440,1090)"/>
+    <wire from="(450,1040)" to="(450,1100)"/>
+    <wire from="(460,1040)" to="(460,1100)"/>
+    <wire from="(460,1100)" to="(980,1100)"/>
+    <wire from="(460,780)" to="(460,840)"/>
+    <wire from="(460,980)" to="(460,1020)"/>
+    <wire from="(470,1040)" to="(470,1090)"/>
+    <wire from="(470,1090)" to="(970,1090)"/>
+    <wire from="(480,1040)" to="(480,1080)"/>
+    <wire from="(480,1080)" to="(960,1080)"/>
+    <wire from="(490,1040)" to="(490,1070)"/>
+    <wire from="(490,1070)" to="(950,1070)"/>
+    <wire from="(490,500)" to="(490,540)"/>
+    <wire from="(500,1040)" to="(500,1060)"/>
+    <wire from="(500,1060)" to="(940,1060)"/>
+    <wire from="(510,1040)" to="(510,1050)"/>
+    <wire from="(510,1050)" to="(930,1050)"/>
+    <wire from="(570,280)" to="(570,290)"/>
+    <wire from="(570,280)" to="(580,280)"/>
+    <wire from="(570,430)" to="(570,440)"/>
+    <wire from="(570,430)" to="(590,430)"/>
+    <wire from="(570,560)" to="(630,560)"/>
+    <wire from="(570,670)" to="(630,670)"/>
+    <wire from="(570,720)" to="(570,730)"/>
+    <wire from="(570,720)" to="(580,720)"/>
+    <wire from="(570,860)" to="(990,860)"/>
+    <wire from="(570,880)" to="(1010,880)"/>
+    <wire from="(570,900)" to="(1030,900)"/>
+    <wire from="(570,920)" to="(1050,920)"/>
+    <wire from="(600,290)" to="(610,290)"/>
+    <wire from="(600,730)" to="(630,730)"/>
+    <wire from="(610,280)" to="(610,290)"/>
+    <wire from="(610,280)" to="(630,280)"/>
+    <wire from="(610,440)" to="(630,440)"/>
+    <wire from="(630,210)" to="(630,260)"/>
+    <wire from="(630,260)" to="(630,280)"/>
+    <wire from="(630,260)" to="(700,260)"/>
+    <wire from="(630,280)" to="(630,300)"/>
+    <wire from="(630,300)" to="(630,440)"/>
+    <wire from="(630,300)" to="(700,300)"/>
+    <wire from="(630,440)" to="(630,560)"/>
+    <wire from="(630,440)" to="(700,440)"/>
+    <wire from="(630,560)" to="(630,670)"/>
+    <wire from="(630,560)" to="(700,560)"/>
+    <wire from="(630,670)" to="(630,690)"/>
+    <wire from="(630,690)" to="(630,730)"/>
+    <wire from="(630,690)" to="(700,690)"/>
+    <wire from="(630,730)" to="(630,780)"/>
+    <wire from="(810,360)" to="(810,390)"/>
+    <wire from="(810,510)" to="(810,530)"/>
+    <wire from="(810,750)" to="(810,760)"/>
+    <wire from="(920,260)" to="(980,260)"/>
+    <wire from="(920,280)" to="(990,280)"/>
+    <wire from="(920,300)" to="(970,300)"/>
+    <wire from="(920,420)" to="(960,420)"/>
+    <wire from="(920,450)" to="(950,450)"/>
+    <wire from="(920,550)" to="(940,550)"/>
+    <wire from="(920,570)" to="(990,570)"/>
+    <wire from="(920,670)" to="(930,670)"/>
+    <wire from="(920,700)" to="(990,700)"/>
+    <wire from="(930,670)" to="(930,1050)"/>
+    <wire from="(940,550)" to="(940,1060)"/>
+    <wire from="(950,450)" to="(950,1070)"/>
+    <wire from="(960,420)" to="(960,1080)"/>
+    <wire from="(970,300)" to="(970,1090)"/>
+    <wire from="(980,260)" to="(980,1100)"/>
+    <wire from="(990,180)" to="(990,280)"/>
+    <wire from="(990,280)" to="(990,570)"/>
+    <wire from="(990,570)" to="(990,700)"/>
+    <wire from="(990,700)" to="(990,860)"/>
   </circuit>
   <circuit name="ProgramCounter">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="ProgramCounter"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <rect height="3" stroke="none" width="10" x="50" y="59"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="64">Cp</text>
+      <rect height="3" stroke="none" width="10" x="50" y="79"/>
+      <polyline fill="none" points="61,76 68,80 61,84" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="73" y="84">n_CLK</text>
+      <rect height="3" stroke="none" width="10" x="50" y="99"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="104">n_CLR</text>
+      <rect height="3" stroke="none" width="10" x="50" y="119"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="124">Ep</text>
+      <rect height="4" stroke="none" width="10" x="260" y="88"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="255" y="64"/>
+      <rect height="20" stroke="none" width="200" x="60" y="130"/>
+      <rect fill="none" height="100" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
+      <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="144">ProgramCounter</text>
+      <circ-anchor facing="east" x="160" y="90"/>
+      <circ-port dir="in" pin="260,100" x="50" y="60"/>
+      <circ-port dir="in" pin="260,130" x="50" y="80"/>
+      <circ-port dir="in" pin="260,160" x="50" y="100"/>
+      <circ-port dir="in" pin="260,190" x="50" y="120"/>
+      <circ-port dir="out" pin="440,140" x="270" y="90"/>
+    </appear>
     <comp lib="0" loc="(260,100)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="Cp"/>
@@ -113,25 +282,25 @@
     <a name="simulationFrequency" val="1.0"/>
     <appear>
       <rect height="3" stroke="none" width="10" x="50" y="59"/>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="64">Lm</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="64">n_Lm</text>
       <rect height="4" stroke="none" width="10" x="260" y="78"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="84"/>
       <rect height="3" stroke="none" width="10" x="50" y="99"/>
       <polyline fill="none" points="61,96 68,100 61,104" stroke="#000000" stroke-width="2"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="73" y="104">CLK</text>
-      <rect height="11" stroke="none" width="4" x="128" y="129"/>
+      <rect height="11" stroke="none" width="4" x="118" y="129"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="255" y="64"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="255" y="84"/>
       <rect height="20" stroke="none" width="200" x="60" y="110"/>
       <rect fill="none" height="80" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
       <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="124">InputAndMAR</text>
-      <rect height="11" stroke="none" width="4" x="168" y="129"/>
+      <rect height="11" stroke="none" width="4" x="188" y="129"/>
       <circ-anchor facing="east" x="160" y="80"/>
       <circ-port dir="in" pin="180,120" x="50" y="60"/>
       <circ-port dir="in" pin="180,170" x="50" y="100"/>
       <circ-port dir="in" pin="470,140" x="270" y="80"/>
-      <circ-port dir="out" pin="240,230" x="130" y="140"/>
-      <circ-port dir="out" pin="360,230" x="170" y="140"/>
+      <circ-port dir="out" pin="240,230" x="120" y="140"/>
+      <circ-port dir="out" pin="360,230" x="190" y="140"/>
     </appear>
     <comp lib="0" loc="(180,120)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -170,7 +339,7 @@
       <rect height="10" stroke="none" width="4" x="188" y="40"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="84"/>
       <rect height="3" stroke="none" width="10" x="50" y="99"/>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="104">CE</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="104">n_CE</text>
       <rect height="4" stroke="none" width="10" x="260" y="58"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="255" y="64"/>
       <rect height="20" stroke="none" width="200" x="60" y="110"/>
@@ -210,7 +379,7 @@
     <a name="simulationFrequency" val="1.0"/>
     <appear>
       <rect height="3" stroke="none" width="10" x="50" y="59"/>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="64">Li</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="64">n_Li</text>
       <rect height="4" stroke="none" width="10" x="260" y="68"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="84"/>
       <rect height="3" stroke="none" width="10" x="50" y="99"/>
@@ -219,10 +388,10 @@
       <rect height="3" stroke="none" width="10" x="50" y="119"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="124">CLR</text>
       <rect height="3" stroke="none" width="10" x="50" y="139"/>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="144">Ei</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="144">n_Ei</text>
       <rect height="4" stroke="none" width="8" x="261" y="128"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="255" y="64"/>
-      <rect height="9" stroke="none" width="4" x="148" y="171"/>
+      <rect height="10" stroke="none" width="4" x="158" y="170"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="255" y="84"/>
       <rect height="20" stroke="none" width="200" x="60" y="150"/>
       <rect fill="none" height="120" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
@@ -233,12 +402,12 @@
       <circ-port dir="in" pin="220,210" x="50" y="120"/>
       <circ-port dir="in" pin="220,240" x="50" y="140"/>
       <circ-port dir="in" pin="510,150" x="270" y="70"/>
-      <circ-port dir="out" pin="370,260" x="150" y="180"/>
+      <circ-port dir="out" pin="370,260" x="160" y="180"/>
       <circ-port dir="out" pin="520,220" x="270" y="130"/>
     </appear>
     <comp lib="0" loc="(220,150)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="Li"/>
+      <a name="label" val="n_Li"/>
     </comp>
     <comp lib="0" loc="(220,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -456,7 +625,7 @@
     <a name="simulationFrequency" val="1.0"/>
     <appear>
       <rect height="4" stroke="none" width="10" x="260" y="58"/>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="225" y="64">n_Lo</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="225" y="64">n_Lb</text>
       <rect height="4" stroke="none" width="10" x="50" y="68"/>
       <polyline fill="none" points="259,76 250,80 259,84" stroke="#000000" stroke-width="2"/>
       <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="223" y="85">CLK</text>
@@ -487,7 +656,7 @@
     <comp lib="0" loc="(610,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="n_Lo"/>
+      <a name="label" val="n_Lb"/>
     </comp>
     <comp lib="0" loc="(610,300)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -496,15 +665,68 @@
     </comp>
   </circuit>
   <circuit name="OutputRegister">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="OutputRegister"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <rect height="4" stroke="none" width="10" x="260" y="88"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="226" y="63">n_Lo</text>
+      <rect height="4" stroke="none" width="10" x="50" y="78"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="84"/>
+      <rect height="10" stroke="none" width="4" x="158" y="129"/>
+      <polyline fill="none" points="259,85 250,90 259,95" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="222" y="94">CLK</text>
+      <rect height="4" stroke="none" width="10" x="260" y="58"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="255" y="64"/>
+      <rect height="20" stroke="none" width="200" x="60" y="110"/>
+      <rect fill="none" height="80" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
+      <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="124">OutputRegister</text>
+      <circ-anchor facing="east" x="160" y="80"/>
+      <circ-port dir="in" pin="180,220" x="50" y="80"/>
+      <circ-port dir="in" pin="480,170" x="270" y="60"/>
+      <circ-port dir="in" pin="480,220" x="270" y="90"/>
+      <circ-port dir="out" pin="340,360" x="160" y="140"/>
+    </appear>
+    <comp lib="0" loc="(180,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(340,360)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="north"/>
+      <a name="type" val="output"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(480,170)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="n_Lo"/>
+    </comp>
+    <comp lib="0" loc="(480,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="CLK"/>
+    </comp>
   </circuit>
   <circuit name="BinaryDisplay">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="BinaryDisplay"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <rect height="10" stroke="none" width="4" x="158" y="40"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="64"/>
+      <rect height="20" stroke="none" width="200" x="60" y="70"/>
+      <rect fill="none" height="40" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
+      <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="84">BinaryDisplay</text>
+      <circ-anchor facing="east" x="160" y="60"/>
+      <circ-port dir="in" pin="230,180" x="160" y="40"/>
+    </appear>
+    <comp lib="0" loc="(230,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="width" val="8"/>
+    </comp>
   </circuit>
 </project>
