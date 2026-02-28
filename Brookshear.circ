@@ -86,10 +86,6 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="64.0"/>
-    <comp lib="0" loc="(1270,130)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="north"/>
-    </comp>
     <comp lib="0" loc="(410,130)" name="Splitter">
       <a name="bit0" val="7"/>
       <a name="bit1" val="6"/>
@@ -455,7 +451,7 @@
     <wire from="(1110,190)" to="(1110,240)"/>
     <wire from="(1110,190)" to="(1140,190)"/>
     <wire from="(1130,130)" to="(1130,150)"/>
-    <wire from="(1130,130)" to="(1270,130)"/>
+    <wire from="(1130,130)" to="(1550,130)"/>
     <wire from="(1130,1460)" to="(1130,1560)"/>
     <wire from="(1130,1460)" to="(1710,1460)"/>
     <wire from="(1130,150)" to="(1130,170)"/>
@@ -474,7 +470,6 @@
     <wire from="(1210,150)" to="(1210,250)"/>
     <wire from="(1210,1580)" to="(1210,1610)"/>
     <wire from="(1210,1580)" to="(1410,1580)"/>
-    <wire from="(1270,130)" to="(1550,130)"/>
     <wire from="(1280,1120)" to="(1280,1170)"/>
     <wire from="(1280,1120)" to="(1490,1120)"/>
     <wire from="(1280,1170)" to="(1310,1170)"/>
