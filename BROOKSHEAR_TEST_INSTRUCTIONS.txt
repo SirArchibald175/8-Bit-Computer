@@ -1,0 +1,84 @@
+## BROOKSHEAR TEST INSTRUCTIONS
+# 1 - Load all registers
+2001
+2102
+2203
+2304
+2405
+2506
+2607
+2708
+2809
+290a
+2a0b
+2b0c
+2c0d
+2d0e
+2e0f
+2f10
+# 2 - Store all registers in memory
+3000
+3101
+3202
+3303
+3404
+3505
+3606
+3707
+3808
+3909
+3a0a
+3b0b
+3c0c
+3d0d
+3e0e
+3f0f
+# - move memory into registers
+100f
+110e
+120d
+130c
+140b
+150a
+1609
+1708
+1807
+1906
+1a05
+1b04
+1c03
+1d02
+1e01
+1f00
+# - Move Registers around
+40f0
+40e1
+40d2
+40c3
+40b4
+40a5
+4096
+4087
+# - Do Maths
+2023
+2144
+5201 # 23_h + 44_h 
+6301 # 23_h +f 44_h
+7401
+8501
+9601
+a704
+# - Loop
+# setup
+2000 # load 0 with 0 - needs clearing
+2f05 # load f with 5 - initial index (no. of loops)
+2eff # load e with -1 - decrement of index
+2c02 # load c with 2 - inital value
+2d03 # load d with 3 - increment to value
+b0xy # jump to loop
+ffff # halt
+# loop
+5ccd # add d to c
+5ffe # add e to f (-1)
+bfxy # jump to halt if index = 0
+b0xy # jump to loop
