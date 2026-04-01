@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "COUNT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OVERWRITE_VALUE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OVERWRITE_VALUE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OVERWRITE_VALUE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OVERWRITE_VALUE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OVERWRITE_VALUE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OVERWRITE_VALUE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "OVERWRITE_VALUE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "OVERWRITE_VALUE[7]",
+					"strict" : false
+				},
+				{
+					"name" : "OVERWRITE",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "INCREMENT",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
