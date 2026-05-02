@@ -1,0 +1,127 @@
+2001
+2D00
+2EFF
+2F01
+21FA
+B0B0
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+311D;COLIDE POINTER                                                             CARD A;
+12F2;LOAD VAL FROM POINTER                          ;
+B228;IF VAL IS 1, JUMP                                                            JUMP TO A IF TARGET;
+3123;COLIDE POINTER;
+3FF4;STORE 1 IN CELL    --- A 0 to 1;
+511F;MOVE RIGHT           --- A 0 >>>;
+B030;BRANCH TO CARD B                                                       TO FILL;
+312B;COLIDE POINTER                                                             A IF TARGET;
+3FF2;STORE 1 IN CELL   --- A 1 to 1;
+511E;MOVE LEFT            --- A 1 <<<;
+B030;BRANCH TO CARD B;
+3133;COLIDE POINTER                                                              CARD B;
+12F1;LOAD VAL FROM POINTER;
+B23E;IF VAL IS 1 JUMP                                                             JUMP TO B IF TARGET;
+3139;COLLIDE POINTER;
+3FF3;STORE 1 IN CELL   --- B 0 to 1;
+511E;MOVE LEFT             --- B 0 <<< ;
+B01A;BRANCH TO CARD A                                                       ;
+3141;COLLIDE POINTER                                                           B IF TARGET;
+3DF1;STORE 0 IN CELL   --- B 1 to 0;
+511E;MOVE LEFT             --- B 1 <<<;
+B046;BRANCH TO CARD C;
+3149;COLIDE POINTER                                                              CARD C;
+12F0;LOAD VAL FROM POINTER;
+B254;IF VAL IS 1 JUMP                                                             JUMP TO C IF TARGET                                           ;
+314F;COLLIDE POINTER;
+3FF0;STORE 1 IN CELL   --- C 0 to 1;
+511F;MOVE RIGHT          --- C 0 >>>;
+C000;HALT                                              ;
+3157;COLLIDE POINTER                                                          C IF TARGET;
+3FF3;STORE 1 IN CELL   --- C 1 to 1;
+511E;MOVE LEFT            --- C 1 <<<;
+B05C;BRANCH TO CARD D                                                          ;
+315F;COLLIDE POINTER                                                              CARD D;
+12F3;LOAD VAL FROM POINTER;
+B26A;IF VAL IS 1 JUMP                                                          JUMP TO D IF TARGET                                 ;
+3165;COLLIDE POINTER;
+3FF2;STORE 1 IN CELL   --- D 0 to 1;
+511F;MOVE RIGHT          --- D 0 >>>;
+B05C;BRANCH TO CARD D;
+316D;COLLIDE POINTER                                                          D IF TARGET;
+3DF3;STORE 0 IN CELL   --- D 1 to 0;
+511F;MOVE RIGHT          --- D 1 >>>;
+B01A;BRANCH TO CARD A;
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+3DF0
+3DF1
+3DF2
+3DF3
+3DF4
+3DF5
+3DF6
+3DF7
+3DF8
+3DF9
+3DFA
+3DFB
+3DFC
+3DFD
+3DFE
+3DFF
+B01A
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0000
+0100
+0101
+0101
+0101
+0101
+0101
+0101
