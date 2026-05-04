@@ -84,6 +84,9 @@
     <a name="circuit" val="CPU_COMPARE"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="64.0"/>
+    <comp loc="(530,510)" name="UN_PIPELINED"/>
+    <comp loc="(540,720)" name="PIPELINED_2STAGE"/>
+    <comp loc="(980,530)" name="COMPARE_OUTPUT_CONTROLLER"/>
   </circuit>
   <circuit name="PIPELINED_2STAGE">
     <a name="appearance" val="custom"/>
@@ -30195,5 +30198,11 @@ c300 c400 6012 c000 2100 6134 c100 2200
     <wire from="(980,780)" to="(980,880)"/>
     <wire from="(990,900)" to="(990,960)"/>
     <wire from="(990,960)" to="(1020,960)"/>
+  </circuit>
+  <circuit name="COMPARE_OUTPUT_CONTROLLER">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="COMPARE_OUTPUT_CONTROLLER"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="64.0"/>
   </circuit>
 </project>
