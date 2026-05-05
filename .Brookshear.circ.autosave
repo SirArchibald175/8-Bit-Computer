@@ -88,8 +88,10 @@
     <a name="circuit" val="MAIN"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="downloadBoard" val="DE10-3701-upd-9-14"/>
+    <a name="downloadFrequency" val="2083333.3333333333"/>
     <a name="simulationFrequency" val="64.0"/>
     <boardmap boardname="DE10-3701-upd-9-14">
+      <mc/>
       <mc key="/AUTO" pmap="355_346_9"/>
       <mc key="/AUTO_STATUS" pmap="355_325_9"/>
       <mc key="/CLK_L" pmap="355_325_0"/>
@@ -99,8 +101,18 @@
       <mc key="/DISPLAY_3" pmap="137_325_0,137_325_1,137_325_2,137_325_3,137_325_4,137_325_5,137_325_6"/>
       <mc key="/DISPLAY_4" pmap="83_325_0,83_325_1,83_325_2,83_325_3,83_325_4,83_325_5,83_325_6"/>
       <mc key="/DISPLAY_5" pmap="30_325_0,30_325_1,30_325_2,30_325_3,30_325_4,30_325_5,30_325_6"/>
-      <mc key="/RESET" map="630,245"/>
-      <mc key="/STEP" map="630,281"/>
+      <mc key="/DipSwitch_1" pmap="355_346_1,355_346_2"/>
+      <mc key="/DipSwitch_2" pmap="355_346_4,355_346_5,355_346_6,355_346_7"/>
+      <mc key="/LED_1" pmap="355_325_8"/>
+      <mc key="/LED_2" pmap="355_325_7"/>
+      <mc key="/LED_3" pmap="355_325_6"/>
+      <mc key="/LED_4" pmap="355_325_5"/>
+      <mc key="/LED_5" pmap="355_325_4"/>
+      <mc key="/LED_6" pmap="355_325_3"/>
+      <mc key="/LED_7" pmap="355_325_2"/>
+      <mc key="/LED_8" pmap="355_325_1"/>
+      <mc key="/RESET" map="630,281"/>
+      <mc key="/STEP" map="630,245"/>
     </boardmap>
     <comp lib="0" loc="(1190,730)" name="Clock">
       <a name="appearance" val="NewPins"/>
@@ -406,10 +418,12 @@
     </comp>
     <comp lib="6" loc="(2470,520)" name="DipSwitch">
       <a name="facing" val="south"/>
+      <a name="label" val="DipSwitch_2"/>
       <a name="number" val="4"/>
     </comp>
     <comp lib="6" loc="(2600,370)" name="DipSwitch">
       <a name="facing" val="south"/>
+      <a name="label" val="DipSwitch_1"/>
       <a name="number" val="2"/>
     </comp>
     <comp lib="6" loc="(2750,190)" name="7-Segment Display">
@@ -490,13 +504,21 @@
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp loc="(1810,2640)" name="BROOKSHEAR_PIPELINED"/>
+    <comp loc="(1810,2640)" name="BROOKSHEAR_PIPELINED">
+      <a name="label" val="BROOKSHEAR_PIPELINED_1"/>
+    </comp>
     <comp loc="(1850,940)" name="BROOKSHEAR">
       <a name="label" val="UN_PIPELINED_1"/>
     </comp>
-    <comp loc="(2280,1650)" name="OUTPUT_CONTROLLER_COMB"/>
-    <comp loc="(2300,2580)" name="OUTPUT_CONTROLLER_P"/>
-    <comp loc="(2330,840)" name="OUTPUT_CONTROLLER_NP"/>
+    <comp loc="(2280,1650)" name="OUTPUT_CONTROLLER_COMB">
+      <a name="label" val="OUTPUT_CONTROLLER_COMB_1"/>
+    </comp>
+    <comp loc="(2300,2580)" name="OUTPUT_CONTROLLER_P">
+      <a name="label" val="OUTPUT_CONTROLLER_P_1"/>
+    </comp>
+    <comp loc="(2330,840)" name="OUTPUT_CONTROLLER_NP">
+      <a name="label" val="OUTPUT_CONTROLLER_NP_1"/>
+    </comp>
     <comp loc="(2720,420)" name="Hexdecoder">
       <a name="facing" val="north"/>
       <a name="label" val="Hexdecoder_1"/>
@@ -30042,6 +30064,7 @@
     </comp>
     <comp loc="(840,1500)" name="PEncoder_3">
       <a name="facing" val="north"/>
+      <a name="label" val="PEncoder_3_1"/>
     </comp>
     <wire from="(1000,900)" to="(1000,1040)"/>
     <wire from="(1010,780)" to="(1010,880)"/>
