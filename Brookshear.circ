@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="4.1.0" version="1.0">
-  This file is intended to be loaded by Logisim-evolution v4.1.0(https://github.com/logisim-evolution/).
+<project source="4.0.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v4.0.0(https://github.com/logisim-evolution/).
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -31,15 +31,14 @@
     </tool>
   </lib>
   <lib desc="#Arithmetic" name="3"/>
-  <lib desc="#FPArithmetic" name="4"/>
-  <lib desc="#Memory" name="5"/>
-  <lib desc="#I/O" name="6"/>
-  <lib desc="#TTL" name="7"/>
-  <lib desc="#TCL" name="8"/>
-  <lib desc="#Base" name="9"/>
-  <lib desc="#BFH-Praktika" name="10"/>
-  <lib desc="#Input/Output-Extra" name="11"/>
-  <lib desc="#Soc" name="12"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#TTL" name="6"/>
+  <lib desc="#TCL" name="7"/>
+  <lib desc="#Base" name="8"/>
+  <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="#Input/Output-Extra" name="10"/>
+  <lib desc="#Soc" name="11"/>
   <main name="MAIN"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -47,15 +46,15 @@
     <a name="simrand" val="0"/>
   </options>
   <mappings>
-    <tool lib="9" map="Button2" name="Poke Tool"/>
-    <tool lib="9" map="Button3" name="Menu Tool"/>
-    <tool lib="9" map="Ctrl Button1" name="Menu Tool"/>
+    <tool lib="8" map="Button2" name="Poke Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
   </mappings>
   <toolbar>
-    <tool lib="9" name="Poke Tool"/>
-    <tool lib="9" name="Edit Tool"/>
-    <tool lib="9" name="Wiring Tool"/>
-    <tool lib="9" name="Text Tool"/>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Wiring Tool"/>
+    <tool lib="8" name="Text Tool"/>
     <sep/>
     <tool lib="0" name="Pin"/>
     <tool lib="0" name="Pin">
@@ -80,8 +79,8 @@
       <a name="facing" val="west"/>
     </tool>
     <sep/>
-    <tool lib="5" name="D Flip-Flop"/>
-    <tool lib="5" name="Register"/>
+    <tool lib="4" name="D Flip-Flop"/>
+    <tool lib="4" name="Register"/>
   </toolbar>
   <circuit name="MAIN_2">
     <a name="appearance" val="logisim_evolution"/>
@@ -394,124 +393,124 @@
       <a name="select" val="2"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="5" loc="(1470,820)" name="D Flip-Flop">
+    <comp lib="4" loc="(1470,820)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="6" loc="(1190,670)" name="Button">
+    <comp lib="5" loc="(1190,670)" name="Button">
       <a name="label" val="STEP"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1190,710)" name="DipSwitch">
+    <comp lib="5" loc="(1190,710)" name="DipSwitch">
       <a name="facing" val="east"/>
       <a name="label" val="AUTO"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="west"/>
       <a name="number" val="1"/>
     </comp>
-    <comp lib="6" loc="(1210,720)" name="LED">
+    <comp lib="5" loc="(1210,720)" name="LED">
       <a name="label" val="AUTO_STATUS"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1300,830)" name="Button">
+    <comp lib="5" loc="(1300,830)" name="Button">
       <a name="label" val="RESET"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(1490,750)" name="LED">
+    <comp lib="5" loc="(1490,750)" name="LED">
       <a name="facing" val="north"/>
       <a name="label" val="CLK_L"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="6" loc="(2470,560)" name="DipSwitch">
+    <comp lib="5" loc="(2470,560)" name="DipSwitch">
       <a name="facing" val="south"/>
       <a name="label" val="DipSwitch_2"/>
       <a name="number" val="4"/>
     </comp>
-    <comp lib="6" loc="(2600,550)" name="DipSwitch">
+    <comp lib="5" loc="(2600,550)" name="DipSwitch">
       <a name="facing" val="south"/>
       <a name="label" val="DipSwitch_1"/>
       <a name="number" val="2"/>
     </comp>
-    <comp lib="6" loc="(2750,260)" name="7-Segment Display">
+    <comp lib="5" loc="(2750,260)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_5"/>
     </comp>
-    <comp lib="6" loc="(2810,260)" name="7-Segment Display">
+    <comp lib="5" loc="(2810,260)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_4"/>
     </comp>
-    <comp lib="6" loc="(2870,260)" name="7-Segment Display">
+    <comp lib="5" loc="(2870,260)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_3"/>
     </comp>
-    <comp lib="6" loc="(2930,260)" name="7-Segment Display">
+    <comp lib="5" loc="(2930,260)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_2"/>
     </comp>
-    <comp lib="6" loc="(2990,260)" name="7-Segment Display">
+    <comp lib="5" loc="(2990,260)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_1"/>
     </comp>
-    <comp lib="6" loc="(3050,260)" name="7-Segment Display">
+    <comp lib="5" loc="(3050,260)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_0"/>
     </comp>
-    <comp lib="6" loc="(3070,610)" name="LED">
+    <comp lib="5" loc="(3070,610)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_8"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3120,610)" name="LED">
+    <comp lib="5" loc="(3120,610)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_7"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3170,610)" name="LED">
+    <comp lib="5" loc="(3170,610)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_6"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3220,610)" name="LED">
+    <comp lib="5" loc="(3220,610)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_5"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3270,610)" name="LED">
+    <comp lib="5" loc="(3270,610)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_4"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3320,610)" name="LED">
+    <comp lib="5" loc="(3320,610)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_3"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3370,610)" name="LED">
+    <comp lib="5" loc="(3370,610)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_2"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3420,610)" name="LED">
+    <comp lib="5" loc="(3420,610)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_1"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="9" loc="(1425,939)" name="Text">
+    <comp lib="8" loc="(1425,935)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Reset Input Buffer"/>
     </comp>
@@ -1090,124 +1089,124 @@
       <a name="select" val="2"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="5" loc="(1460,780)" name="D Flip-Flop">
+    <comp lib="4" loc="(1460,780)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="6" loc="(1190,630)" name="Button">
+    <comp lib="5" loc="(1190,630)" name="Button">
       <a name="label" val="STEP"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1190,670)" name="DipSwitch">
+    <comp lib="5" loc="(1190,670)" name="DipSwitch">
       <a name="facing" val="east"/>
       <a name="label" val="AUTO"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="west"/>
       <a name="number" val="1"/>
     </comp>
-    <comp lib="6" loc="(1210,680)" name="LED">
+    <comp lib="5" loc="(1210,680)" name="LED">
       <a name="label" val="AUTO_STATUS"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1300,790)" name="Button">
+    <comp lib="5" loc="(1300,790)" name="Button">
       <a name="label" val="RESET"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(1490,660)" name="LED">
+    <comp lib="5" loc="(1490,660)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="CLK_L"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(2470,600)" name="DipSwitch">
+    <comp lib="5" loc="(2470,600)" name="DipSwitch">
       <a name="facing" val="south"/>
       <a name="label" val="DipSwitch_2"/>
       <a name="number" val="4"/>
     </comp>
-    <comp lib="6" loc="(2600,590)" name="DipSwitch">
+    <comp lib="5" loc="(2600,590)" name="DipSwitch">
       <a name="facing" val="south"/>
       <a name="label" val="DipSwitch_1"/>
       <a name="number" val="2"/>
     </comp>
-    <comp lib="6" loc="(2750,300)" name="7-Segment Display">
+    <comp lib="5" loc="(2750,300)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_5"/>
     </comp>
-    <comp lib="6" loc="(2810,300)" name="7-Segment Display">
+    <comp lib="5" loc="(2810,300)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_4"/>
     </comp>
-    <comp lib="6" loc="(2870,300)" name="7-Segment Display">
+    <comp lib="5" loc="(2870,300)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_3"/>
     </comp>
-    <comp lib="6" loc="(2930,300)" name="7-Segment Display">
+    <comp lib="5" loc="(2930,300)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_2"/>
     </comp>
-    <comp lib="6" loc="(2990,300)" name="7-Segment Display">
+    <comp lib="5" loc="(2990,300)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_1"/>
     </comp>
-    <comp lib="6" loc="(3050,300)" name="7-Segment Display">
+    <comp lib="5" loc="(3050,300)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_0"/>
     </comp>
-    <comp lib="6" loc="(3070,650)" name="LED">
+    <comp lib="5" loc="(3070,650)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_8"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3120,650)" name="LED">
+    <comp lib="5" loc="(3120,650)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_7"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3170,650)" name="LED">
+    <comp lib="5" loc="(3170,650)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_6"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3220,650)" name="LED">
+    <comp lib="5" loc="(3220,650)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_5"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3270,650)" name="LED">
+    <comp lib="5" loc="(3270,650)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_4"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3320,650)" name="LED">
+    <comp lib="5" loc="(3320,650)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_3"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3370,650)" name="LED">
+    <comp lib="5" loc="(3370,650)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_2"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3420,650)" name="LED">
+    <comp lib="5" loc="(3420,650)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_1"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="9" loc="(1425,899)" name="Text">
+    <comp lib="8" loc="(1425,895)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Reset Input Buffer"/>
     </comp>
@@ -1895,10 +1894,10 @@
       <a name="selloc" val="tr"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="5" loc="(1190,1200)" name="D Flip-Flop">
+    <comp lib="4" loc="(1190,1200)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1500,890)" name="ROM">
+    <comp lib="4" loc="(1500,890)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 16
 c000 c100 c200 c300 c400 c500 c600 c700
@@ -1914,53 +1913,53 @@ ca00 ffff
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelvisible" val="true"/>
     </comp>
-    <comp lib="5" loc="(1600,1850)" name="Register">
+    <comp lib="4" loc="(1600,1850)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="RTB_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1600,1970)" name="Register">
+    <comp lib="4" loc="(1600,1970)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="RTB_B"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1600,2090)" name="Register">
+    <comp lib="4" loc="(1600,2090)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="OUTPUT_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1600,2210)" name="Register">
+    <comp lib="4" loc="(1600,2210)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MWB_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1600,2330)" name="Register">
+    <comp lib="4" loc="(1600,2330)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MWB_B"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1600,2450)" name="Register">
+    <comp lib="4" loc="(1600,2450)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MAR_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1600,2570)" name="Register">
+    <comp lib="4" loc="(1600,2570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MAR_B"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1790,1570)" name="Register">
+    <comp lib="4" loc="(1790,1570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="ACCUMULATOR"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1790,1720)" name="Register">
+    <comp lib="4" loc="(1790,1720)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="STATUS_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="width" val="1"/>
     </comp>
-    <comp lib="9" loc="(1240,1280)" name="Text">
+    <comp lib="8" loc="(1240,1280)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="HLT Register"/>
     </comp>
@@ -2690,10 +2689,10 @@ ca00 ffff
       <a name="selloc" val="tr"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="5" loc="(1190,1200)" name="D Flip-Flop">
+    <comp lib="4" loc="(1190,1200)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1500,890)" name="ROM">
+    <comp lib="4" loc="(1500,890)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 16
 c000 c100 c200 c300 c400 c500 c600 c700
@@ -2709,38 +2708,38 @@ ca00 ffff
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelvisible" val="true"/>
     </comp>
-    <comp lib="5" loc="(1600,1910)" name="Register">
+    <comp lib="4" loc="(1600,1910)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="RTB_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1600,2090)" name="Register">
+    <comp lib="4" loc="(1600,2090)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="OUTPUT_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1600,2270)" name="Register">
+    <comp lib="4" loc="(1600,2270)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MWB_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1600,2450)" name="Register">
+    <comp lib="4" loc="(1600,2450)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MAR_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1790,1570)" name="Register">
+    <comp lib="4" loc="(1790,1570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="ACCUMULATOR"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1790,1720)" name="Register">
+    <comp lib="4" loc="(1790,1720)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="STATUS_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="width" val="1"/>
     </comp>
-    <comp lib="9" loc="(1240,1280)" name="Text">
+    <comp lib="8" loc="(1240,1280)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="HLT Register"/>
     </comp>
@@ -3413,45 +3412,45 @@ ca00 ffff
       <a name="selloc" val="tr"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="5" loc="(1350,1200)" name="D Flip-Flop">
+    <comp lib="4" loc="(1350,1200)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1400,2610)" name="Register">
+    <comp lib="4" loc="(1400,2610)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="RTB_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1400,2730)" name="Register">
+    <comp lib="4" loc="(1400,2730)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="RTB_B"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(2130,2430)" name="Register">
+    <comp lib="4" loc="(2130,2430)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="OUTPUT_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(2130,2550)" name="Register">
+    <comp lib="4" loc="(2130,2550)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MWB_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(2130,2670)" name="Register">
+    <comp lib="4" loc="(2130,2670)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MWB_B"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(2130,2790)" name="Register">
+    <comp lib="4" loc="(2130,2790)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MAR_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(2130,2910)" name="Register">
+    <comp lib="4" loc="(2130,2910)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MAR_B"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(2130,890)" name="ROM">
+    <comp lib="4" loc="(2130,890)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 16
 2f63 2e47 2d9b 2c55 2bed 2a12 cf00 ce00
@@ -3464,23 +3463,23 @@ c500 ffff
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelvisible" val="true"/>
     </comp>
-    <comp lib="5" loc="(2630,1640)" name="Register">
+    <comp lib="4" loc="(2630,1640)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="ACCUMULATOR"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(2750,1780)" name="Register">
+    <comp lib="4" loc="(2750,1780)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="STATUS_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
       <a name="width" val="1"/>
     </comp>
-    <comp lib="9" loc="(1400,1280)" name="Text">
+    <comp lib="8" loc="(1400,1280)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="HLT Register"/>
     </comp>
-    <comp lib="9" loc="(2355,2630)" name="Text">
+    <comp lib="8" loc="(2355,2630)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="RAM_W"/>
     </comp>
@@ -4337,48 +4336,48 @@ c500 ffff
       <a name="facing" val="north"/>
       <a name="size" val="30"/>
     </comp>
-    <comp lib="5" loc="(1100,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1100,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1210,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1210,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1240,1650)" name="Register">
+    <comp lib="4" loc="(1240,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1320,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1320,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1380,1120)" name="Register">
+    <comp lib="4" loc="(1380,1120)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1790,1670)" name="Register">
+    <comp lib="4" loc="(1790,1670)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1820,870)" name="Register">
+    <comp lib="4" loc="(1820,870)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="OUTPUT_REG"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1830,1320)" name="Register">
+    <comp lib="4" loc="(1830,1320)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="STATUS_REG"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
       <a name="width" val="1"/>
     </comp>
-    <comp lib="5" loc="(550,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(550,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(640,390)" name="ROM">
+    <comp lib="4" loc="(640,390)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 16
 c000 c100 c200 c300 c400 c500 c600 c700
@@ -4392,64 +4391,64 @@ ca00 ffff
       <a name="dataWidth" val="16"/>
       <a name="label" val="ROM_1"/>
     </comp>
-    <comp lib="5" loc="(660,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(660,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(770,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(770,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(880,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(880,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(900,420)" name="Register">
+    <comp lib="4" loc="(900,420)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="5" loc="(920,690)" name="D Flip-Flop">
+    <comp lib="4" loc="(920,690)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(990,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(990,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="9" loc="(1255,1780)" name="Text">
+    <comp lib="8" loc="(1255,1780)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Memory Address Register"/>
     </comp>
-    <comp lib="9" loc="(1405,1105)" name="Text">
+    <comp lib="8" loc="(1405,1105)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Accumulator"/>
     </comp>
-    <comp lib="9" loc="(1835,1835)" name="Text">
+    <comp lib="8" loc="(1835,1835)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Memory Buffer Register"/>
     </comp>
-    <comp lib="9" loc="(405,155)" name="Text">
+    <comp lib="8" loc="(405,155)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="INCREMENT"/>
     </comp>
-    <comp lib="9" loc="(430,250)" name="Text">
+    <comp lib="8" loc="(430,250)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="RESET_PC"/>
     </comp>
-    <comp lib="9" loc="(770,325)" name="Text">
+    <comp lib="8" loc="(770,325)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="READ"/>
     </comp>
-    <comp lib="9" loc="(820,970)" name="Text">
+    <comp lib="8" loc="(820,970)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Register Bus"/>
     </comp>
-    <comp lib="9" loc="(860,60)" name="Text">
+    <comp lib="8" loc="(860,60)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="PROGRAM COUNTER"/>
     </comp>
-    <comp lib="9" loc="(965,780)" name="Text">
+    <comp lib="8" loc="(965,780)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="HLT Register"/>
     </comp>
@@ -5633,221 +5632,221 @@ ca00 ffff
       <a name="selloc" val="tr"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="5" loc="(2030,2730)" name="D Flip-Flop">
+    <comp lib="4" loc="(2030,2730)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="high"/>
     </comp>
-    <comp lib="5" loc="(2400,600)" name="D Flip-Flop">
+    <comp lib="4" loc="(2400,600)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="high"/>
     </comp>
-    <comp lib="5" loc="(560,290)" name="D Flip-Flop">
+    <comp lib="4" loc="(560,290)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(650,290)" name="D Flip-Flop">
+    <comp lib="4" loc="(650,290)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(740,290)" name="D Flip-Flop">
+    <comp lib="4" loc="(740,290)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(830,290)" name="D Flip-Flop">
+    <comp lib="4" loc="(830,290)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(920,290)" name="D Flip-Flop">
+    <comp lib="4" loc="(920,290)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="9" loc="(100,1015)" name="Text">
+    <comp lib="8" loc="(100,1015)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="A: Rotate"/>
     </comp>
-    <comp lib="9" loc="(100,1115)" name="Text">
+    <comp lib="8" loc="(100,1115)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="C: OUTPUT"/>
     </comp>
-    <comp lib="9" loc="(105,765)" name="Text">
+    <comp lib="8" loc="(105,765)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="5: ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(105,815)" name="Text">
+    <comp lib="8" loc="(105,815)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="6: ADD (FP)"/>
     </comp>
-    <comp lib="9" loc="(1085,1340)" name="Text">
+    <comp lib="8" loc="(1085,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="7"/>
     </comp>
-    <comp lib="9" loc="(1185,1340)" name="Text">
+    <comp lib="8" loc="(1185,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="8"/>
     </comp>
-    <comp lib="9" loc="(1285,1340)" name="Text">
+    <comp lib="8" loc="(1285,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="9"/>
     </comp>
-    <comp lib="9" loc="(130,1165)" name="Text">
+    <comp lib="8" loc="(130,1165)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="D: NO OPERATION"/>
     </comp>
-    <comp lib="9" loc="(130,1215)" name="Text">
+    <comp lib="8" loc="(130,1215)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="E: NO OPERATION"/>
     </comp>
-    <comp lib="9" loc="(130,510)" name="Text">
+    <comp lib="8" loc="(130,510)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="0: NO OPERATION"/>
     </comp>
-    <comp lib="9" loc="(1385,1340)" name="Text">
+    <comp lib="8" loc="(1385,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="A"/>
     </comp>
-    <comp lib="9" loc="(140,715)" name="Text">
+    <comp lib="8" loc="(140,715)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="4: MOVE REG TO REG"/>
     </comp>
-    <comp lib="9" loc="(1485,1340)" name="Text">
+    <comp lib="8" loc="(1485,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="B"/>
     </comp>
-    <comp lib="9" loc="(1585,1340)" name="Text">
+    <comp lib="8" loc="(1585,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="C"/>
     </comp>
-    <comp lib="9" loc="(160,565)" name="Text">
+    <comp lib="8" loc="(160,565)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="1: LOAD REG WITH MEMORY"/>
     </comp>
-    <comp lib="9" loc="(160,615)" name="Text">
+    <comp lib="8" loc="(160,615)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="2: LOAD REG WITH VALUE"/>
     </comp>
-    <comp lib="9" loc="(160,665)" name="Text">
+    <comp lib="8" loc="(160,665)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="3: LOAD MEMORY WITH REG"/>
     </comp>
-    <comp lib="9" loc="(1655,1340)" name="Text">
+    <comp lib="8" loc="(1655,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="D"/>
     </comp>
-    <comp lib="9" loc="(1725,1340)" name="Text">
+    <comp lib="8" loc="(1725,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="E"/>
     </comp>
-    <comp lib="9" loc="(1805,1340)" name="Text">
+    <comp lib="8" loc="(1805,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="F"/>
     </comp>
-    <comp lib="9" loc="(1965,1265)" name="Text">
+    <comp lib="8" loc="(1965,1265)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="EARLY INCREMENT PC"/>
     </comp>
-    <comp lib="9" loc="(2150,1265)" name="Text">
+    <comp lib="8" loc="(2150,1265)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="EARLY RESET RC"/>
     </comp>
-    <comp lib="9" loc="(2905,2815)" name="Text">
+    <comp lib="8" loc="(2905,2815)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="000 : -"/>
     </comp>
-    <comp lib="9" loc="(2905,2880)" name="Text">
+    <comp lib="8" loc="(2905,2880)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="011 : OR"/>
     </comp>
-    <comp lib="9" loc="(2905,2970)" name="Text">
+    <comp lib="8" loc="(2905,2970)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="111 : EQ"/>
     </comp>
-    <comp lib="9" loc="(2910,2900)" name="Text">
+    <comp lib="8" loc="(2910,2900)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="100 : AND"/>
     </comp>
-    <comp lib="9" loc="(2910,2925)" name="Text">
+    <comp lib="8" loc="(2910,2925)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="101 : XOR"/>
     </comp>
-    <comp lib="9" loc="(2925,1885)" name="Text">
+    <comp lib="8" loc="(2925,1885)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="CURRENTLY UNUSED"/>
     </comp>
-    <comp lib="9" loc="(2930,2785)" name="Text">
+    <comp lib="8" loc="(2930,2785)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ALU INSTRUCTION SET"/>
     </comp>
-    <comp lib="9" loc="(2935,2835)" name="Text">
+    <comp lib="8" loc="(2935,2835)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="001 : ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(2935,2855)" name="Text">
+    <comp lib="8" loc="(2935,2855)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="010 : ADD (FP)"/>
     </comp>
-    <comp lib="9" loc="(2950,2945)" name="Text">
+    <comp lib="8" loc="(2950,2945)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="110 : RIGHT ROTATE"/>
     </comp>
-    <comp lib="9" loc="(400,2695)" name="Text">
+    <comp lib="8" loc="(400,2695)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="WRITE"/>
     </comp>
-    <comp lib="9" loc="(420,2470)" name="Text">
+    <comp lib="8" loc="(420,2470)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="READ"/>
     </comp>
-    <comp lib="9" loc="(475,1340)" name="Text">
+    <comp lib="8" loc="(475,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="0"/>
     </comp>
-    <comp lib="9" loc="(545,1340)" name="Text">
+    <comp lib="8" loc="(545,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="1"/>
     </comp>
-    <comp lib="9" loc="(645,1340)" name="Text">
+    <comp lib="8" loc="(645,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="2"/>
     </comp>
-    <comp lib="9" loc="(705,275)" name="Text">
+    <comp lib="8" loc="(705,275)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="RING COUNTER"/>
     </comp>
-    <comp lib="9" loc="(715,1340)" name="Text">
+    <comp lib="8" loc="(715,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="3"/>
     </comp>
-    <comp lib="9" loc="(80,865)" name="Text">
+    <comp lib="8" loc="(80,865)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="7: OR"/>
     </comp>
-    <comp lib="9" loc="(815,1340)" name="Text">
+    <comp lib="8" loc="(815,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="4"/>
     </comp>
-    <comp lib="9" loc="(85,915)" name="Text">
+    <comp lib="8" loc="(85,915)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="8: AND"/>
     </comp>
-    <comp lib="9" loc="(85,965)" name="Text">
+    <comp lib="8" loc="(85,965)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="9: XOR"/>
     </comp>
-    <comp lib="9" loc="(885,1340)" name="Text">
+    <comp lib="8" loc="(885,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="5"/>
     </comp>
-    <comp lib="9" loc="(90,1060)" name="Text">
+    <comp lib="8" loc="(90,1060)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="B: JUMP"/>
     </comp>
-    <comp lib="9" loc="(95,1255)" name="Text">
+    <comp lib="8" loc="(95,1255)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="F: HALT"/>
     </comp>
-    <comp lib="9" loc="(985,1340)" name="Text">
+    <comp lib="8" loc="(985,1340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="6"/>
     </comp>
@@ -7366,266 +7365,266 @@ ca00 ffff
       <a name="selloc" val="tr"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="5" loc="(1010,570)" name="Register">
+    <comp lib="4" loc="(1010,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="STATE_1"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="5" loc="(1550,770)" name="D Flip-Flop">
+    <comp lib="4" loc="(1550,770)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1640,770)" name="D Flip-Flop">
+    <comp lib="4" loc="(1640,770)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1880,570)" name="Register">
+    <comp lib="4" loc="(1880,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="STATE_2"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="5" loc="(2120,600)" name="D Flip-Flop">
+    <comp lib="4" loc="(2120,600)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="BUFFER_SELECT_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="9" loc="(1300,1035)" name="Text">
+    <comp lib="8" loc="(1300,1035)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="2"/>
     </comp>
-    <comp lib="9" loc="(1300,1095)" name="Text">
+    <comp lib="8" loc="(1300,1095)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="3"/>
     </comp>
-    <comp lib="9" loc="(1300,1155)" name="Text">
+    <comp lib="8" loc="(1300,1155)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="4"/>
     </comp>
-    <comp lib="9" loc="(1300,1215)" name="Text">
+    <comp lib="8" loc="(1300,1215)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="5"/>
     </comp>
-    <comp lib="9" loc="(1300,1270)" name="Text">
+    <comp lib="8" loc="(1300,1270)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="6"/>
     </comp>
-    <comp lib="9" loc="(1300,1335)" name="Text">
+    <comp lib="8" loc="(1300,1335)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="7"/>
     </comp>
-    <comp lib="9" loc="(1300,1395)" name="Text">
+    <comp lib="8" loc="(1300,1395)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="8"/>
     </comp>
-    <comp lib="9" loc="(1300,1455)" name="Text">
+    <comp lib="8" loc="(1300,1455)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="9"/>
     </comp>
-    <comp lib="9" loc="(1300,1515)" name="Text">
+    <comp lib="8" loc="(1300,1515)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="A"/>
     </comp>
-    <comp lib="9" loc="(1300,1575)" name="Text">
+    <comp lib="8" loc="(1300,1575)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="B"/>
     </comp>
-    <comp lib="9" loc="(1300,1635)" name="Text">
+    <comp lib="8" loc="(1300,1635)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="C"/>
     </comp>
-    <comp lib="9" loc="(1300,1695)" name="Text">
+    <comp lib="8" loc="(1300,1695)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="D"/>
     </comp>
-    <comp lib="9" loc="(1300,1755)" name="Text">
+    <comp lib="8" loc="(1300,1755)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="E"/>
     </comp>
-    <comp lib="9" loc="(1300,1815)" name="Text">
+    <comp lib="8" loc="(1300,1815)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="F"/>
     </comp>
-    <comp lib="9" loc="(1300,915)" name="Text">
+    <comp lib="8" loc="(1300,915)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="0"/>
     </comp>
-    <comp lib="9" loc="(1300,975)" name="Text">
+    <comp lib="8" loc="(1300,975)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="1"/>
     </comp>
-    <comp lib="9" loc="(1375,915)" name="Text">
+    <comp lib="8" loc="(1375,915)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="NOTHING"/>
     </comp>
-    <comp lib="9" loc="(1590,100)" name="Text">
+    <comp lib="8" loc="(1590,100)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="OPERAND FORWARDING LOGIC"/>
     </comp>
-    <comp lib="9" loc="(2120,1035)" name="Text">
+    <comp lib="8" loc="(2120,1035)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="2"/>
     </comp>
-    <comp lib="9" loc="(2120,1095)" name="Text">
+    <comp lib="8" loc="(2120,1095)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="3"/>
     </comp>
-    <comp lib="9" loc="(2120,1155)" name="Text">
+    <comp lib="8" loc="(2120,1155)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="4"/>
     </comp>
-    <comp lib="9" loc="(2120,1215)" name="Text">
+    <comp lib="8" loc="(2120,1215)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="5"/>
     </comp>
-    <comp lib="9" loc="(2120,1270)" name="Text">
+    <comp lib="8" loc="(2120,1270)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="6"/>
     </comp>
-    <comp lib="9" loc="(2120,1335)" name="Text">
+    <comp lib="8" loc="(2120,1335)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="7"/>
     </comp>
-    <comp lib="9" loc="(2120,1395)" name="Text">
+    <comp lib="8" loc="(2120,1395)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="8"/>
     </comp>
-    <comp lib="9" loc="(2120,1455)" name="Text">
+    <comp lib="8" loc="(2120,1455)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="9"/>
     </comp>
-    <comp lib="9" loc="(2120,1515)" name="Text">
+    <comp lib="8" loc="(2120,1515)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="A"/>
     </comp>
-    <comp lib="9" loc="(2120,1575)" name="Text">
+    <comp lib="8" loc="(2120,1575)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="B"/>
     </comp>
-    <comp lib="9" loc="(2120,1635)" name="Text">
+    <comp lib="8" loc="(2120,1635)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="C"/>
     </comp>
-    <comp lib="9" loc="(2120,1695)" name="Text">
+    <comp lib="8" loc="(2120,1695)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="D"/>
     </comp>
-    <comp lib="9" loc="(2120,1755)" name="Text">
+    <comp lib="8" loc="(2120,1755)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="E"/>
     </comp>
-    <comp lib="9" loc="(2120,1815)" name="Text">
+    <comp lib="8" loc="(2120,1815)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="F"/>
     </comp>
-    <comp lib="9" loc="(2120,915)" name="Text">
+    <comp lib="8" loc="(2120,915)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="0"/>
     </comp>
-    <comp lib="9" loc="(2120,975)" name="Text">
+    <comp lib="8" loc="(2120,975)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="1"/>
     </comp>
-    <comp lib="9" loc="(360,2030)" name="Text">
+    <comp lib="8" loc="(360,2030)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="000 : -"/>
     </comp>
-    <comp lib="9" loc="(360,2095)" name="Text">
+    <comp lib="8" loc="(360,2095)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="011 : OR"/>
     </comp>
-    <comp lib="9" loc="(360,2185)" name="Text">
+    <comp lib="8" loc="(360,2185)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="111 : EQ"/>
     </comp>
-    <comp lib="9" loc="(365,2115)" name="Text">
+    <comp lib="8" loc="(365,2115)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="100 : AND"/>
     </comp>
-    <comp lib="9" loc="(365,2140)" name="Text">
+    <comp lib="8" loc="(365,2140)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="101 : XOR"/>
     </comp>
-    <comp lib="9" loc="(370,1295)" name="Text">
+    <comp lib="8" loc="(370,1295)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="7: OR"/>
     </comp>
-    <comp lib="9" loc="(375,1345)" name="Text">
+    <comp lib="8" loc="(375,1345)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="8: AND"/>
     </comp>
-    <comp lib="9" loc="(375,1395)" name="Text">
+    <comp lib="8" loc="(375,1395)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="9: XOR"/>
     </comp>
-    <comp lib="9" loc="(380,1490)" name="Text">
+    <comp lib="8" loc="(380,1490)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="B: JUMP"/>
     </comp>
-    <comp lib="9" loc="(385,1685)" name="Text">
+    <comp lib="8" loc="(385,1685)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="F: HALT"/>
     </comp>
-    <comp lib="9" loc="(385,2000)" name="Text">
+    <comp lib="8" loc="(385,2000)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ALU INSTRUCTION SET"/>
     </comp>
-    <comp lib="9" loc="(390,1445)" name="Text">
+    <comp lib="8" loc="(390,1445)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="A: Rotate"/>
     </comp>
-    <comp lib="9" loc="(390,1545)" name="Text">
+    <comp lib="8" loc="(390,1545)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="C: OUTPUT"/>
     </comp>
-    <comp lib="9" loc="(390,2050)" name="Text">
+    <comp lib="8" loc="(390,2050)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="001 : ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(390,2070)" name="Text">
+    <comp lib="8" loc="(390,2070)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="010 : ADD (FP)"/>
     </comp>
-    <comp lib="9" loc="(395,1195)" name="Text">
+    <comp lib="8" loc="(395,1195)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="5: ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(395,1245)" name="Text">
+    <comp lib="8" loc="(395,1245)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="6: ADD (FP)"/>
     </comp>
-    <comp lib="9" loc="(405,2160)" name="Text">
+    <comp lib="8" loc="(405,2160)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="110 : RIGHT ROTATE"/>
     </comp>
-    <comp lib="9" loc="(420,1595)" name="Text">
+    <comp lib="8" loc="(420,1595)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="D: NO OPERATION"/>
     </comp>
-    <comp lib="9" loc="(420,1645)" name="Text">
+    <comp lib="8" loc="(420,1645)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="E: NO OPERATION"/>
     </comp>
-    <comp lib="9" loc="(420,940)" name="Text">
+    <comp lib="8" loc="(420,940)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="0: NO OPERATION"/>
     </comp>
-    <comp lib="9" loc="(430,1145)" name="Text">
+    <comp lib="8" loc="(430,1145)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="4: MOVE REG TO REG"/>
     </comp>
-    <comp lib="9" loc="(450,1045)" name="Text">
+    <comp lib="8" loc="(450,1045)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="2: LOAD REG WITH VALUE"/>
     </comp>
-    <comp lib="9" loc="(450,1095)" name="Text">
+    <comp lib="8" loc="(450,1095)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="3: LOAD MEMORY WITH REG"/>
     </comp>
-    <comp lib="9" loc="(450,995)" name="Text">
+    <comp lib="8" loc="(450,995)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="1: LOAD REG WITH MEMORY"/>
     </comp>
-    <comp lib="9" loc="(660,495)" name="Text">
+    <comp lib="8" loc="(660,495)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="BUBBLE"/>
     </comp>
@@ -8835,257 +8834,257 @@ ca00 ffff
       <a name="selloc" val="tr"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="5" loc="(1020,420)" name="D Flip-Flop">
+    <comp lib="4" loc="(1020,420)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="STAGE_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1020,570)" name="Register">
+    <comp lib="4" loc="(1020,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="CIR"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="5" loc="(1560,770)" name="D Flip-Flop">
+    <comp lib="4" loc="(1560,770)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1650,770)" name="D Flip-Flop">
+    <comp lib="4" loc="(1650,770)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(810,460)" name="D Flip-Flop">
+    <comp lib="4" loc="(810,460)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="BOOT_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="9" loc="(1310,1035)" name="Text">
+    <comp lib="8" loc="(1310,1035)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="2"/>
     </comp>
-    <comp lib="9" loc="(1310,1095)" name="Text">
+    <comp lib="8" loc="(1310,1095)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="3"/>
     </comp>
-    <comp lib="9" loc="(1310,1155)" name="Text">
+    <comp lib="8" loc="(1310,1155)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="4"/>
     </comp>
-    <comp lib="9" loc="(1310,1215)" name="Text">
+    <comp lib="8" loc="(1310,1215)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="5"/>
     </comp>
-    <comp lib="9" loc="(1310,1270)" name="Text">
+    <comp lib="8" loc="(1310,1270)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="6"/>
     </comp>
-    <comp lib="9" loc="(1310,1335)" name="Text">
+    <comp lib="8" loc="(1310,1335)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="7"/>
     </comp>
-    <comp lib="9" loc="(1310,1395)" name="Text">
+    <comp lib="8" loc="(1310,1395)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="8"/>
     </comp>
-    <comp lib="9" loc="(1310,1455)" name="Text">
+    <comp lib="8" loc="(1310,1455)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="9"/>
     </comp>
-    <comp lib="9" loc="(1310,1515)" name="Text">
+    <comp lib="8" loc="(1310,1515)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="A"/>
     </comp>
-    <comp lib="9" loc="(1310,1575)" name="Text">
+    <comp lib="8" loc="(1310,1575)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="B"/>
     </comp>
-    <comp lib="9" loc="(1310,1635)" name="Text">
+    <comp lib="8" loc="(1310,1635)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="C"/>
     </comp>
-    <comp lib="9" loc="(1310,1695)" name="Text">
+    <comp lib="8" loc="(1310,1695)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="D"/>
     </comp>
-    <comp lib="9" loc="(1310,1755)" name="Text">
+    <comp lib="8" loc="(1310,1755)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="E"/>
     </comp>
-    <comp lib="9" loc="(1310,1815)" name="Text">
+    <comp lib="8" loc="(1310,1815)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="F"/>
     </comp>
-    <comp lib="9" loc="(1310,915)" name="Text">
+    <comp lib="8" loc="(1310,915)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="0"/>
     </comp>
-    <comp lib="9" loc="(1310,975)" name="Text">
+    <comp lib="8" loc="(1310,975)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="1"/>
     </comp>
-    <comp lib="9" loc="(1385,915)" name="Text">
+    <comp lib="8" loc="(1385,915)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="NOTHING"/>
     </comp>
-    <comp lib="9" loc="(2130,1035)" name="Text">
+    <comp lib="8" loc="(2130,1035)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="2"/>
     </comp>
-    <comp lib="9" loc="(2130,1095)" name="Text">
+    <comp lib="8" loc="(2130,1095)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="3"/>
     </comp>
-    <comp lib="9" loc="(2130,1155)" name="Text">
+    <comp lib="8" loc="(2130,1155)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="4"/>
     </comp>
-    <comp lib="9" loc="(2130,1215)" name="Text">
+    <comp lib="8" loc="(2130,1215)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="5"/>
     </comp>
-    <comp lib="9" loc="(2130,1270)" name="Text">
+    <comp lib="8" loc="(2130,1270)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="6"/>
     </comp>
-    <comp lib="9" loc="(2130,1335)" name="Text">
+    <comp lib="8" loc="(2130,1335)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="7"/>
     </comp>
-    <comp lib="9" loc="(2130,1395)" name="Text">
+    <comp lib="8" loc="(2130,1395)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="8"/>
     </comp>
-    <comp lib="9" loc="(2130,1455)" name="Text">
+    <comp lib="8" loc="(2130,1455)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="9"/>
     </comp>
-    <comp lib="9" loc="(2130,1515)" name="Text">
+    <comp lib="8" loc="(2130,1515)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="A"/>
     </comp>
-    <comp lib="9" loc="(2130,1575)" name="Text">
+    <comp lib="8" loc="(2130,1575)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="B"/>
     </comp>
-    <comp lib="9" loc="(2130,1635)" name="Text">
+    <comp lib="8" loc="(2130,1635)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="C"/>
     </comp>
-    <comp lib="9" loc="(2130,1695)" name="Text">
+    <comp lib="8" loc="(2130,1695)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="D"/>
     </comp>
-    <comp lib="9" loc="(2130,1755)" name="Text">
+    <comp lib="8" loc="(2130,1755)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="E"/>
     </comp>
-    <comp lib="9" loc="(2130,1815)" name="Text">
+    <comp lib="8" loc="(2130,1815)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="F"/>
     </comp>
-    <comp lib="9" loc="(2130,915)" name="Text">
+    <comp lib="8" loc="(2130,915)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="0"/>
     </comp>
-    <comp lib="9" loc="(2130,975)" name="Text">
+    <comp lib="8" loc="(2130,975)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="1"/>
     </comp>
-    <comp lib="9" loc="(370,2030)" name="Text">
+    <comp lib="8" loc="(370,2030)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="000 : -"/>
     </comp>
-    <comp lib="9" loc="(370,2095)" name="Text">
+    <comp lib="8" loc="(370,2095)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="011 : OR"/>
     </comp>
-    <comp lib="9" loc="(370,2185)" name="Text">
+    <comp lib="8" loc="(370,2185)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="111 : EQ"/>
     </comp>
-    <comp lib="9" loc="(375,2115)" name="Text">
+    <comp lib="8" loc="(375,2115)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="100 : AND"/>
     </comp>
-    <comp lib="9" loc="(375,2140)" name="Text">
+    <comp lib="8" loc="(375,2140)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="101 : XOR"/>
     </comp>
-    <comp lib="9" loc="(380,1295)" name="Text">
+    <comp lib="8" loc="(380,1295)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="7: OR"/>
     </comp>
-    <comp lib="9" loc="(385,1345)" name="Text">
+    <comp lib="8" loc="(385,1345)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="8: AND"/>
     </comp>
-    <comp lib="9" loc="(385,1395)" name="Text">
+    <comp lib="8" loc="(385,1395)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="9: XOR"/>
     </comp>
-    <comp lib="9" loc="(390,1490)" name="Text">
+    <comp lib="8" loc="(390,1490)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="B: JUMP"/>
     </comp>
-    <comp lib="9" loc="(395,1685)" name="Text">
+    <comp lib="8" loc="(395,1685)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="F: HALT"/>
     </comp>
-    <comp lib="9" loc="(395,2000)" name="Text">
+    <comp lib="8" loc="(395,2000)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ALU INSTRUCTION SET"/>
     </comp>
-    <comp lib="9" loc="(400,1445)" name="Text">
+    <comp lib="8" loc="(400,1445)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="A: Rotate"/>
     </comp>
-    <comp lib="9" loc="(400,1545)" name="Text">
+    <comp lib="8" loc="(400,1545)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="C: OUTPUT"/>
     </comp>
-    <comp lib="9" loc="(400,2050)" name="Text">
+    <comp lib="8" loc="(400,2050)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="001 : ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(400,2070)" name="Text">
+    <comp lib="8" loc="(400,2070)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="010 : ADD (FP)"/>
     </comp>
-    <comp lib="9" loc="(405,1195)" name="Text">
+    <comp lib="8" loc="(405,1195)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="5: ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(405,1245)" name="Text">
+    <comp lib="8" loc="(405,1245)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="6: ADD (FP)"/>
     </comp>
-    <comp lib="9" loc="(415,2160)" name="Text">
+    <comp lib="8" loc="(415,2160)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="110 : RIGHT ROTATE"/>
     </comp>
-    <comp lib="9" loc="(430,1595)" name="Text">
+    <comp lib="8" loc="(430,1595)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="D: NO OPERATION"/>
     </comp>
-    <comp lib="9" loc="(430,1645)" name="Text">
+    <comp lib="8" loc="(430,1645)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="E: NO OPERATION"/>
     </comp>
-    <comp lib="9" loc="(430,940)" name="Text">
+    <comp lib="8" loc="(430,940)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="0: NO OPERATION"/>
     </comp>
-    <comp lib="9" loc="(440,1145)" name="Text">
+    <comp lib="8" loc="(440,1145)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="4: MOVE REG TO REG"/>
     </comp>
-    <comp lib="9" loc="(460,1045)" name="Text">
+    <comp lib="8" loc="(460,1045)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="2: LOAD REG WITH VALUE"/>
     </comp>
-    <comp lib="9" loc="(460,1095)" name="Text">
+    <comp lib="8" loc="(460,1095)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="3: LOAD MEMORY WITH REG"/>
     </comp>
-    <comp lib="9" loc="(460,995)" name="Text">
+    <comp lib="8" loc="(460,995)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="1: LOAD REG WITH MEMORY"/>
     </comp>
@@ -9822,38 +9821,38 @@ ca00 ffff
       <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
-    <comp lib="5" loc="(1080,620)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1080,620)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1190,620)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1190,620)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1300,620)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1300,620)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(490,900)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(490,900)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(530,620)" name="D Flip-Flop">
+    <comp lib="4" loc="(530,620)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(640,620)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(640,620)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(750,620)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(750,620)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(860,620)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(860,620)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(970,620)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(970,620)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="9" loc="(750,785)" name="Text">
+    <comp lib="8" loc="(750,785)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="READ"/>
     </comp>
-    <comp lib="9" loc="(840,510)" name="Text">
+    <comp lib="8" loc="(840,510)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="PROGRAM COUNTER"/>
     </comp>
@@ -10453,70 +10452,70 @@ ca00 ffff
       <a name="control" val="left"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="5" loc="(700,250)" name="Register">
+    <comp lib="4" loc="(700,250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="9" loc="(125,575)" name="Text">
+    <comp lib="8" loc="(125,575)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="000 : -"/>
     </comp>
-    <comp lib="9" loc="(130,545)" name="Text">
+    <comp lib="8" loc="(130,545)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="INSTRUCTION SET"/>
     </comp>
-    <comp lib="9" loc="(130,640)" name="Text">
+    <comp lib="8" loc="(130,640)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="011 : OR"/>
     </comp>
-    <comp lib="9" loc="(130,725)" name="Text">
+    <comp lib="8" loc="(130,725)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="111 : EQ"/>
     </comp>
-    <comp lib="9" loc="(135,660)" name="Text">
+    <comp lib="8" loc="(135,660)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="100 : AND"/>
     </comp>
-    <comp lib="9" loc="(135,685)" name="Text">
+    <comp lib="8" loc="(135,685)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="101 : XOR"/>
     </comp>
-    <comp lib="9" loc="(145,705)" name="Text">
+    <comp lib="8" loc="(145,705)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="110 : ROTATE"/>
     </comp>
-    <comp lib="9" loc="(155,615)" name="Text">
+    <comp lib="8" loc="(155,615)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="010 : ADD (FP)"/>
     </comp>
-    <comp lib="9" loc="(160,595)" name="Text">
+    <comp lib="8" loc="(160,595)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="001 : ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(585,675)" name="Text">
+    <comp lib="8" loc="(585,675)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="OR"/>
     </comp>
-    <comp lib="9" loc="(590,1295)" name="Text">
+    <comp lib="8" loc="(590,1295)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="XOR"/>
     </comp>
-    <comp lib="9" loc="(590,1605)" name="Text">
+    <comp lib="8" loc="(590,1605)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ROTATE"/>
     </comp>
-    <comp lib="9" loc="(590,1745)" name="Text">
+    <comp lib="8" loc="(590,1745)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="EQ"/>
     </comp>
-    <comp lib="9" loc="(590,985)" name="Text">
+    <comp lib="8" loc="(590,985)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="AND"/>
     </comp>
-    <comp lib="9" loc="(595,340)" name="Text">
+    <comp lib="8" loc="(595,340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(600,515)" name="Text">
+    <comp lib="8" loc="(600,515)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ADD (FP)"/>
     </comp>
@@ -11055,72 +11054,72 @@ ca00 ffff
       <a name="selloc" val="tr"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="5" loc="(1170,250)" name="Register">
+    <comp lib="4" loc="(1170,250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="ALU_VAL"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="9" loc="(125,575)" name="Text">
+    <comp lib="8" loc="(125,575)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="000 : -"/>
     </comp>
-    <comp lib="9" loc="(130,545)" name="Text">
+    <comp lib="8" loc="(130,545)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="INSTRUCTION SET"/>
     </comp>
-    <comp lib="9" loc="(130,640)" name="Text">
+    <comp lib="8" loc="(130,640)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="011 : OR"/>
     </comp>
-    <comp lib="9" loc="(130,725)" name="Text">
+    <comp lib="8" loc="(130,725)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="111 : EQ"/>
     </comp>
-    <comp lib="9" loc="(135,660)" name="Text">
+    <comp lib="8" loc="(135,660)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="100 : AND"/>
     </comp>
-    <comp lib="9" loc="(135,685)" name="Text">
+    <comp lib="8" loc="(135,685)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="101 : XOR"/>
     </comp>
-    <comp lib="9" loc="(145,705)" name="Text">
+    <comp lib="8" loc="(145,705)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="110 : ROTATE"/>
     </comp>
-    <comp lib="9" loc="(155,615)" name="Text">
+    <comp lib="8" loc="(155,615)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="010 : ADD (FP)"/>
     </comp>
-    <comp lib="9" loc="(160,595)" name="Text">
+    <comp lib="8" loc="(160,595)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="001 : ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(585,675)" name="Text">
+    <comp lib="8" loc="(585,675)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="OR"/>
     </comp>
-    <comp lib="9" loc="(590,1295)" name="Text">
+    <comp lib="8" loc="(590,1295)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="XOR"/>
     </comp>
-    <comp lib="9" loc="(590,1605)" name="Text">
+    <comp lib="8" loc="(590,1605)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ROTATE"/>
     </comp>
-    <comp lib="9" loc="(590,1745)" name="Text">
+    <comp lib="8" loc="(590,1745)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="EQ"/>
     </comp>
-    <comp lib="9" loc="(590,985)" name="Text">
+    <comp lib="8" loc="(590,985)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="AND"/>
     </comp>
-    <comp lib="9" loc="(595,340)" name="Text">
+    <comp lib="8" loc="(595,340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(600,515)" name="Text">
+    <comp lib="8" loc="(600,515)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ADD (FP)"/>
     </comp>
@@ -11587,67 +11586,67 @@ ca00 ffff
       <a name="selloc" val="tr"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="9" loc="(125,575)" name="Text">
+    <comp lib="8" loc="(125,575)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="000 : -"/>
     </comp>
-    <comp lib="9" loc="(130,545)" name="Text">
+    <comp lib="8" loc="(130,545)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="INSTRUCTION SET"/>
     </comp>
-    <comp lib="9" loc="(130,640)" name="Text">
+    <comp lib="8" loc="(130,640)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="011 : OR"/>
     </comp>
-    <comp lib="9" loc="(130,725)" name="Text">
+    <comp lib="8" loc="(130,725)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="111 : EQ"/>
     </comp>
-    <comp lib="9" loc="(135,660)" name="Text">
+    <comp lib="8" loc="(135,660)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="100 : AND"/>
     </comp>
-    <comp lib="9" loc="(135,685)" name="Text">
+    <comp lib="8" loc="(135,685)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="101 : XOR"/>
     </comp>
-    <comp lib="9" loc="(145,705)" name="Text">
+    <comp lib="8" loc="(145,705)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="110 : ROTATE"/>
     </comp>
-    <comp lib="9" loc="(155,615)" name="Text">
+    <comp lib="8" loc="(155,615)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="010 : ADD (FP)"/>
     </comp>
-    <comp lib="9" loc="(160,595)" name="Text">
+    <comp lib="8" loc="(160,595)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="001 : ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(585,675)" name="Text">
+    <comp lib="8" loc="(585,675)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="OR"/>
     </comp>
-    <comp lib="9" loc="(590,1295)" name="Text">
+    <comp lib="8" loc="(590,1295)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="XOR"/>
     </comp>
-    <comp lib="9" loc="(590,1605)" name="Text">
+    <comp lib="8" loc="(590,1605)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ROTATE"/>
     </comp>
-    <comp lib="9" loc="(590,1745)" name="Text">
+    <comp lib="8" loc="(590,1745)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="EQ"/>
     </comp>
-    <comp lib="9" loc="(590,985)" name="Text">
+    <comp lib="8" loc="(590,985)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="AND"/>
     </comp>
-    <comp lib="9" loc="(595,340)" name="Text">
+    <comp lib="8" loc="(595,340)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(600,515)" name="Text">
+    <comp lib="8" loc="(600,515)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ADD (FP)"/>
     </comp>
@@ -14772,772 +14771,772 @@ ca00 ffff
       <a name="select" val="4"/>
       <a name="selloc" val="tr"/>
     </comp>
-    <comp lib="5" loc="(1140,1050)" name="Register">
+    <comp lib="4" loc="(1140,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,1170)" name="Register">
+    <comp lib="4" loc="(1140,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,1290)" name="Register">
+    <comp lib="4" loc="(1140,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,1410)" name="Register">
+    <comp lib="4" loc="(1140,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,1530)" name="Register">
+    <comp lib="4" loc="(1140,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,1650)" name="Register">
+    <comp lib="4" loc="(1140,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,1770)" name="Register">
+    <comp lib="4" loc="(1140,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,1890)" name="Register">
+    <comp lib="4" loc="(1140,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,2010)" name="Register">
+    <comp lib="4" loc="(1140,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,2130)" name="Register">
+    <comp lib="4" loc="(1140,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,2250)" name="Register">
+    <comp lib="4" loc="(1140,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,2370)" name="Register">
+    <comp lib="4" loc="(1140,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,570)" name="Register">
+    <comp lib="4" loc="(1140,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,690)" name="Register">
+    <comp lib="4" loc="(1140,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,810)" name="Register">
+    <comp lib="4" loc="(1140,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1140,930)" name="Register">
+    <comp lib="4" loc="(1140,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,1050)" name="Register">
+    <comp lib="4" loc="(1330,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,1170)" name="Register">
+    <comp lib="4" loc="(1330,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,1290)" name="Register">
+    <comp lib="4" loc="(1330,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,1410)" name="Register">
+    <comp lib="4" loc="(1330,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,1530)" name="Register">
+    <comp lib="4" loc="(1330,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,1650)" name="Register">
+    <comp lib="4" loc="(1330,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,1770)" name="Register">
+    <comp lib="4" loc="(1330,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,1890)" name="Register">
+    <comp lib="4" loc="(1330,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,2010)" name="Register">
+    <comp lib="4" loc="(1330,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,2130)" name="Register">
+    <comp lib="4" loc="(1330,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,2250)" name="Register">
+    <comp lib="4" loc="(1330,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,2370)" name="Register">
+    <comp lib="4" loc="(1330,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,570)" name="Register">
+    <comp lib="4" loc="(1330,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,690)" name="Register">
+    <comp lib="4" loc="(1330,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,810)" name="Register">
+    <comp lib="4" loc="(1330,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1330,930)" name="Register">
+    <comp lib="4" loc="(1330,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,1050)" name="Register">
+    <comp lib="4" loc="(1520,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,1170)" name="Register">
+    <comp lib="4" loc="(1520,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,1290)" name="Register">
+    <comp lib="4" loc="(1520,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,1410)" name="Register">
+    <comp lib="4" loc="(1520,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,1530)" name="Register">
+    <comp lib="4" loc="(1520,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,1650)" name="Register">
+    <comp lib="4" loc="(1520,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,1770)" name="Register">
+    <comp lib="4" loc="(1520,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,1890)" name="Register">
+    <comp lib="4" loc="(1520,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,2010)" name="Register">
+    <comp lib="4" loc="(1520,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,2130)" name="Register">
+    <comp lib="4" loc="(1520,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,2250)" name="Register">
+    <comp lib="4" loc="(1520,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,2370)" name="Register">
+    <comp lib="4" loc="(1520,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,570)" name="Register">
+    <comp lib="4" loc="(1520,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,690)" name="Register">
+    <comp lib="4" loc="(1520,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,810)" name="Register">
+    <comp lib="4" loc="(1520,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1520,930)" name="Register">
+    <comp lib="4" loc="(1520,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,1050)" name="Register">
+    <comp lib="4" loc="(1710,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,1170)" name="Register">
+    <comp lib="4" loc="(1710,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,1290)" name="Register">
+    <comp lib="4" loc="(1710,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,1410)" name="Register">
+    <comp lib="4" loc="(1710,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,1530)" name="Register">
+    <comp lib="4" loc="(1710,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,1650)" name="Register">
+    <comp lib="4" loc="(1710,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,1770)" name="Register">
+    <comp lib="4" loc="(1710,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,1890)" name="Register">
+    <comp lib="4" loc="(1710,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,2010)" name="Register">
+    <comp lib="4" loc="(1710,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,2130)" name="Register">
+    <comp lib="4" loc="(1710,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,2250)" name="Register">
+    <comp lib="4" loc="(1710,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,2370)" name="Register">
+    <comp lib="4" loc="(1710,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,570)" name="Register">
+    <comp lib="4" loc="(1710,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,690)" name="Register">
+    <comp lib="4" loc="(1710,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,810)" name="Register">
+    <comp lib="4" loc="(1710,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1710,930)" name="Register">
+    <comp lib="4" loc="(1710,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,1050)" name="Register">
+    <comp lib="4" loc="(1900,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,1170)" name="Register">
+    <comp lib="4" loc="(1900,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,1290)" name="Register">
+    <comp lib="4" loc="(1900,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,1410)" name="Register">
+    <comp lib="4" loc="(1900,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,1530)" name="Register">
+    <comp lib="4" loc="(1900,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,1650)" name="Register">
+    <comp lib="4" loc="(1900,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,1770)" name="Register">
+    <comp lib="4" loc="(1900,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,1890)" name="Register">
+    <comp lib="4" loc="(1900,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,2010)" name="Register">
+    <comp lib="4" loc="(1900,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,2130)" name="Register">
+    <comp lib="4" loc="(1900,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,2250)" name="Register">
+    <comp lib="4" loc="(1900,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,2370)" name="Register">
+    <comp lib="4" loc="(1900,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,570)" name="Register">
+    <comp lib="4" loc="(1900,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,690)" name="Register">
+    <comp lib="4" loc="(1900,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,810)" name="Register">
+    <comp lib="4" loc="(1900,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1900,930)" name="Register">
+    <comp lib="4" loc="(1900,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,1050)" name="Register">
+    <comp lib="4" loc="(2090,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,1170)" name="Register">
+    <comp lib="4" loc="(2090,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,1290)" name="Register">
+    <comp lib="4" loc="(2090,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,1410)" name="Register">
+    <comp lib="4" loc="(2090,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,1530)" name="Register">
+    <comp lib="4" loc="(2090,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,1650)" name="Register">
+    <comp lib="4" loc="(2090,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,1770)" name="Register">
+    <comp lib="4" loc="(2090,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,1890)" name="Register">
+    <comp lib="4" loc="(2090,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,2010)" name="Register">
+    <comp lib="4" loc="(2090,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,2130)" name="Register">
+    <comp lib="4" loc="(2090,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,2250)" name="Register">
+    <comp lib="4" loc="(2090,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,2370)" name="Register">
+    <comp lib="4" loc="(2090,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,570)" name="Register">
+    <comp lib="4" loc="(2090,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,690)" name="Register">
+    <comp lib="4" loc="(2090,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,810)" name="Register">
+    <comp lib="4" loc="(2090,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2090,930)" name="Register">
+    <comp lib="4" loc="(2090,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,1050)" name="Register">
+    <comp lib="4" loc="(2280,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,1170)" name="Register">
+    <comp lib="4" loc="(2280,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,1290)" name="Register">
+    <comp lib="4" loc="(2280,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,1410)" name="Register">
+    <comp lib="4" loc="(2280,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,1530)" name="Register">
+    <comp lib="4" loc="(2280,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,1650)" name="Register">
+    <comp lib="4" loc="(2280,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,1770)" name="Register">
+    <comp lib="4" loc="(2280,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,1890)" name="Register">
+    <comp lib="4" loc="(2280,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,2010)" name="Register">
+    <comp lib="4" loc="(2280,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,2130)" name="Register">
+    <comp lib="4" loc="(2280,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,2250)" name="Register">
+    <comp lib="4" loc="(2280,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,2370)" name="Register">
+    <comp lib="4" loc="(2280,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,570)" name="Register">
+    <comp lib="4" loc="(2280,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,690)" name="Register">
+    <comp lib="4" loc="(2280,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,810)" name="Register">
+    <comp lib="4" loc="(2280,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2280,930)" name="Register">
+    <comp lib="4" loc="(2280,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,1050)" name="Register">
+    <comp lib="4" loc="(2470,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,1170)" name="Register">
+    <comp lib="4" loc="(2470,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,1290)" name="Register">
+    <comp lib="4" loc="(2470,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,1410)" name="Register">
+    <comp lib="4" loc="(2470,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,1530)" name="Register">
+    <comp lib="4" loc="(2470,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,1650)" name="Register">
+    <comp lib="4" loc="(2470,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,1770)" name="Register">
+    <comp lib="4" loc="(2470,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,1890)" name="Register">
+    <comp lib="4" loc="(2470,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,2010)" name="Register">
+    <comp lib="4" loc="(2470,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,2130)" name="Register">
+    <comp lib="4" loc="(2470,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,2250)" name="Register">
+    <comp lib="4" loc="(2470,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,2370)" name="Register">
+    <comp lib="4" loc="(2470,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,570)" name="Register">
+    <comp lib="4" loc="(2470,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,690)" name="Register">
+    <comp lib="4" loc="(2470,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,810)" name="Register">
+    <comp lib="4" loc="(2470,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2470,930)" name="Register">
+    <comp lib="4" loc="(2470,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,1050)" name="Register">
+    <comp lib="4" loc="(2660,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,1170)" name="Register">
+    <comp lib="4" loc="(2660,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,1290)" name="Register">
+    <comp lib="4" loc="(2660,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,1410)" name="Register">
+    <comp lib="4" loc="(2660,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,1530)" name="Register">
+    <comp lib="4" loc="(2660,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,1650)" name="Register">
+    <comp lib="4" loc="(2660,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,1770)" name="Register">
+    <comp lib="4" loc="(2660,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,1890)" name="Register">
+    <comp lib="4" loc="(2660,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,2010)" name="Register">
+    <comp lib="4" loc="(2660,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,2130)" name="Register">
+    <comp lib="4" loc="(2660,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,2250)" name="Register">
+    <comp lib="4" loc="(2660,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,2370)" name="Register">
+    <comp lib="4" loc="(2660,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,570)" name="Register">
+    <comp lib="4" loc="(2660,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,690)" name="Register">
+    <comp lib="4" loc="(2660,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,810)" name="Register">
+    <comp lib="4" loc="(2660,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2660,930)" name="Register">
+    <comp lib="4" loc="(2660,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,1050)" name="Register">
+    <comp lib="4" loc="(2850,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,1170)" name="Register">
+    <comp lib="4" loc="(2850,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,1290)" name="Register">
+    <comp lib="4" loc="(2850,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,1410)" name="Register">
+    <comp lib="4" loc="(2850,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,1530)" name="Register">
+    <comp lib="4" loc="(2850,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,1650)" name="Register">
+    <comp lib="4" loc="(2850,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,1770)" name="Register">
+    <comp lib="4" loc="(2850,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,1890)" name="Register">
+    <comp lib="4" loc="(2850,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,2010)" name="Register">
+    <comp lib="4" loc="(2850,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,2130)" name="Register">
+    <comp lib="4" loc="(2850,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,2250)" name="Register">
+    <comp lib="4" loc="(2850,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,2370)" name="Register">
+    <comp lib="4" loc="(2850,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,570)" name="Register">
+    <comp lib="4" loc="(2850,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,690)" name="Register">
+    <comp lib="4" loc="(2850,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,810)" name="Register">
+    <comp lib="4" loc="(2850,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(2850,930)" name="Register">
+    <comp lib="4" loc="(2850,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,1050)" name="Register">
+    <comp lib="4" loc="(3040,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,1170)" name="Register">
+    <comp lib="4" loc="(3040,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,1290)" name="Register">
+    <comp lib="4" loc="(3040,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,1410)" name="Register">
+    <comp lib="4" loc="(3040,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,1530)" name="Register">
+    <comp lib="4" loc="(3040,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,1650)" name="Register">
+    <comp lib="4" loc="(3040,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,1770)" name="Register">
+    <comp lib="4" loc="(3040,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,1890)" name="Register">
+    <comp lib="4" loc="(3040,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,2010)" name="Register">
+    <comp lib="4" loc="(3040,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,2130)" name="Register">
+    <comp lib="4" loc="(3040,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,2250)" name="Register">
+    <comp lib="4" loc="(3040,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,2370)" name="Register">
+    <comp lib="4" loc="(3040,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,570)" name="Register">
+    <comp lib="4" loc="(3040,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,690)" name="Register">
+    <comp lib="4" loc="(3040,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,810)" name="Register">
+    <comp lib="4" loc="(3040,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3040,930)" name="Register">
+    <comp lib="4" loc="(3040,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,1050)" name="Register">
+    <comp lib="4" loc="(3230,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,1170)" name="Register">
+    <comp lib="4" loc="(3230,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,1290)" name="Register">
+    <comp lib="4" loc="(3230,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,1410)" name="Register">
+    <comp lib="4" loc="(3230,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,1530)" name="Register">
+    <comp lib="4" loc="(3230,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,1650)" name="Register">
+    <comp lib="4" loc="(3230,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,1770)" name="Register">
+    <comp lib="4" loc="(3230,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,1890)" name="Register">
+    <comp lib="4" loc="(3230,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,2010)" name="Register">
+    <comp lib="4" loc="(3230,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,2130)" name="Register">
+    <comp lib="4" loc="(3230,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,2250)" name="Register">
+    <comp lib="4" loc="(3230,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,2370)" name="Register">
+    <comp lib="4" loc="(3230,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,570)" name="Register">
+    <comp lib="4" loc="(3230,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,690)" name="Register">
+    <comp lib="4" loc="(3230,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,810)" name="Register">
+    <comp lib="4" loc="(3230,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3230,930)" name="Register">
+    <comp lib="4" loc="(3230,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,1050)" name="Register">
+    <comp lib="4" loc="(3420,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,1170)" name="Register">
+    <comp lib="4" loc="(3420,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,1290)" name="Register">
+    <comp lib="4" loc="(3420,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,1410)" name="Register">
+    <comp lib="4" loc="(3420,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,1530)" name="Register">
+    <comp lib="4" loc="(3420,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,1650)" name="Register">
+    <comp lib="4" loc="(3420,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,1770)" name="Register">
+    <comp lib="4" loc="(3420,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,1890)" name="Register">
+    <comp lib="4" loc="(3420,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,2010)" name="Register">
+    <comp lib="4" loc="(3420,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,2130)" name="Register">
+    <comp lib="4" loc="(3420,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,2250)" name="Register">
+    <comp lib="4" loc="(3420,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,2370)" name="Register">
+    <comp lib="4" loc="(3420,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,570)" name="Register">
+    <comp lib="4" loc="(3420,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,690)" name="Register">
+    <comp lib="4" loc="(3420,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,810)" name="Register">
+    <comp lib="4" loc="(3420,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3420,930)" name="Register">
+    <comp lib="4" loc="(3420,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,1050)" name="Register">
+    <comp lib="4" loc="(3610,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,1170)" name="Register">
+    <comp lib="4" loc="(3610,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,1290)" name="Register">
+    <comp lib="4" loc="(3610,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,1410)" name="Register">
+    <comp lib="4" loc="(3610,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,1530)" name="Register">
+    <comp lib="4" loc="(3610,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,1650)" name="Register">
+    <comp lib="4" loc="(3610,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,1770)" name="Register">
+    <comp lib="4" loc="(3610,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,1890)" name="Register">
+    <comp lib="4" loc="(3610,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,2010)" name="Register">
+    <comp lib="4" loc="(3610,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,2130)" name="Register">
+    <comp lib="4" loc="(3610,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,2250)" name="Register">
+    <comp lib="4" loc="(3610,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,2370)" name="Register">
+    <comp lib="4" loc="(3610,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,570)" name="Register">
+    <comp lib="4" loc="(3610,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,690)" name="Register">
+    <comp lib="4" loc="(3610,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,810)" name="Register">
+    <comp lib="4" loc="(3610,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3610,930)" name="Register">
+    <comp lib="4" loc="(3610,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,1050)" name="Register">
+    <comp lib="4" loc="(3800,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,1170)" name="Register">
+    <comp lib="4" loc="(3800,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,1290)" name="Register">
+    <comp lib="4" loc="(3800,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,1410)" name="Register">
+    <comp lib="4" loc="(3800,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,1530)" name="Register">
+    <comp lib="4" loc="(3800,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,1650)" name="Register">
+    <comp lib="4" loc="(3800,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,1770)" name="Register">
+    <comp lib="4" loc="(3800,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,1890)" name="Register">
+    <comp lib="4" loc="(3800,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,2010)" name="Register">
+    <comp lib="4" loc="(3800,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,2130)" name="Register">
+    <comp lib="4" loc="(3800,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,2250)" name="Register">
+    <comp lib="4" loc="(3800,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,2370)" name="Register">
+    <comp lib="4" loc="(3800,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,570)" name="Register">
+    <comp lib="4" loc="(3800,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,690)" name="Register">
+    <comp lib="4" loc="(3800,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,810)" name="Register">
+    <comp lib="4" loc="(3800,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(3800,930)" name="Register">
+    <comp lib="4" loc="(3800,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,1050)" name="Register">
+    <comp lib="4" loc="(950,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,1170)" name="Register">
+    <comp lib="4" loc="(950,1170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,1290)" name="Register">
+    <comp lib="4" loc="(950,1290)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,1410)" name="Register">
+    <comp lib="4" loc="(950,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,1530)" name="Register">
+    <comp lib="4" loc="(950,1530)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,1650)" name="Register">
+    <comp lib="4" loc="(950,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,1770)" name="Register">
+    <comp lib="4" loc="(950,1770)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,1890)" name="Register">
+    <comp lib="4" loc="(950,1890)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,2010)" name="Register">
+    <comp lib="4" loc="(950,2010)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,2130)" name="Register">
+    <comp lib="4" loc="(950,2130)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,2250)" name="Register">
+    <comp lib="4" loc="(950,2250)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,2370)" name="Register">
+    <comp lib="4" loc="(950,2370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,570)" name="Register">
+    <comp lib="4" loc="(950,570)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,690)" name="Register">
+    <comp lib="4" loc="(950,690)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,810)" name="Register">
+    <comp lib="4" loc="(950,810)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(950,930)" name="Register">
+    <comp lib="4" loc="(950,930)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <wire from="(1010,1030)" to="(1010,1050)"/>
@@ -21280,52 +21279,52 @@ ca00 ffff
     <comp lib="2" loc="(770,1030)" name="Demultiplexer">
       <a name="select" val="4"/>
     </comp>
-    <comp lib="5" loc="(930,1050)" name="Register">
+    <comp lib="4" loc="(930,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1160)" name="Register">
+    <comp lib="4" loc="(930,1160)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1270)" name="Register">
+    <comp lib="4" loc="(930,1270)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1380)" name="Register">
+    <comp lib="4" loc="(930,1380)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1490)" name="Register">
+    <comp lib="4" loc="(930,1490)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1600)" name="Register">
+    <comp lib="4" loc="(930,1600)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,170)" name="Register">
+    <comp lib="4" loc="(930,170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1710)" name="Register">
+    <comp lib="4" loc="(930,1710)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1820)" name="Register">
+    <comp lib="4" loc="(930,1820)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,280)" name="Register">
+    <comp lib="4" loc="(930,280)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,390)" name="Register">
+    <comp lib="4" loc="(930,390)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,500)" name="Register">
+    <comp lib="4" loc="(930,500)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,610)" name="Register">
+    <comp lib="4" loc="(930,610)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,720)" name="Register">
+    <comp lib="4" loc="(930,720)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,830)" name="Register">
+    <comp lib="4" loc="(930,830)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,940)" name="Register">
+    <comp lib="4" loc="(930,940)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <wire from="(1000,1040)" to="(1000,1150)"/>
@@ -21653,52 +21652,52 @@ ca00 ffff
     <comp lib="2" loc="(770,1030)" name="Demultiplexer">
       <a name="select" val="4"/>
     </comp>
-    <comp lib="5" loc="(930,1050)" name="Register">
+    <comp lib="4" loc="(930,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1160)" name="Register">
+    <comp lib="4" loc="(930,1160)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1270)" name="Register">
+    <comp lib="4" loc="(930,1270)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1380)" name="Register">
+    <comp lib="4" loc="(930,1380)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1490)" name="Register">
+    <comp lib="4" loc="(930,1490)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1600)" name="Register">
+    <comp lib="4" loc="(930,1600)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,170)" name="Register">
+    <comp lib="4" loc="(930,170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1710)" name="Register">
+    <comp lib="4" loc="(930,1710)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1820)" name="Register">
+    <comp lib="4" loc="(930,1820)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,280)" name="Register">
+    <comp lib="4" loc="(930,280)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,390)" name="Register">
+    <comp lib="4" loc="(930,390)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,500)" name="Register">
+    <comp lib="4" loc="(930,500)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,610)" name="Register">
+    <comp lib="4" loc="(930,610)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,720)" name="Register">
+    <comp lib="4" loc="(930,720)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,830)" name="Register">
+    <comp lib="4" loc="(930,830)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,940)" name="Register">
+    <comp lib="4" loc="(930,940)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <wire from="(1000,1040)" to="(1000,1150)"/>
@@ -22073,42 +22072,42 @@ ca00 ffff
     <comp lib="1" loc="(960,230)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="5" loc="(1100,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1100,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1220,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1220,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1340,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1340,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1460,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1460,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(620,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(620,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(740,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(740,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(860,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(860,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(980,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(980,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="6" loc="(1560,280)" name="Hex Digit Display">
+    <comp lib="5" loc="(1560,280)" name="Hex Digit Display">
       <a name="decimalPoint" val="false"/>
     </comp>
-    <comp lib="6" loc="(1600,280)" name="Hex Digit Display">
+    <comp lib="5" loc="(1600,280)" name="Hex Digit Display">
       <a name="decimalPoint" val="false"/>
     </comp>
     <wire from="(1000,240)" to="(1000,300)"/>
@@ -23025,23 +23024,23 @@ ca00 ffff
     <comp lib="1" loc="(980,460)" name="Controlled Buffer">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="9" loc="(240,450)" name="Text">
+    <comp lib="8" loc="(240,450)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Two's Comp"/>
     </comp>
-    <comp lib="9" loc="(245,695)" name="Text">
+    <comp lib="8" loc="(245,695)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Return absolute value"/>
     </comp>
-    <comp lib="9" loc="(335,185)" name="Text">
+    <comp lib="8" loc="(335,185)" name="Text">
       <a name="font" val="Monospaced bold 14"/>
       <a name="text" val="SUBTRACTOR"/>
     </comp>
-    <comp lib="9" loc="(555,260)" name="Text">
+    <comp lib="8" loc="(555,260)" name="Text">
       <a name="font" val="Monospaced bold 14"/>
       <a name="text" val="SIGN-BIT"/>
     </comp>
-    <comp lib="9" loc="(725,185)" name="Text">
+    <comp lib="8" loc="(725,185)" name="Text">
       <a name="font" val="Monospaced bold 14"/>
       <a name="text" val="COMPARATOR"/>
     </comp>
@@ -24025,7 +24024,7 @@ ca00 ffff
     <comp lib="1" loc="(460,180)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="9" loc="(370,70)" name="Text">
+    <comp lib="8" loc="(370,70)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="4bit LOD"/>
     </comp>
@@ -24582,31 +24581,31 @@ ca00 ffff
       <a name="selloc" val="tr"/>
       <a name="width" val="7"/>
     </comp>
-    <comp lib="9" loc="(805,1080)" name="Text">
+    <comp lib="8" loc="(805,1080)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="E"/>
     </comp>
-    <comp lib="9" loc="(805,1200)" name="Text">
+    <comp lib="8" loc="(805,1200)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="F"/>
     </comp>
-    <comp lib="9" loc="(810,1325)" name="Text">
+    <comp lib="8" loc="(810,1325)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="G"/>
     </comp>
-    <comp lib="9" loc="(810,570)" name="Text">
+    <comp lib="8" loc="(810,570)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="A"/>
     </comp>
-    <comp lib="9" loc="(810,700)" name="Text">
+    <comp lib="8" loc="(810,700)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="B"/>
     </comp>
-    <comp lib="9" loc="(810,830)" name="Text">
+    <comp lib="8" loc="(810,830)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="C"/>
     </comp>
-    <comp lib="9" loc="(810,960)" name="Text">
+    <comp lib="8" loc="(810,960)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="D"/>
     </comp>
@@ -26218,11 +26217,11 @@ ca00 ffff
       <a name="facing" val="south"/>
       <a name="select" val="2"/>
     </comp>
-    <comp lib="9" loc="(385,485)" name="Text">
+    <comp lib="8" loc="(385,485)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="EQ"/>
     </comp>
-    <comp lib="9" loc="(725,185)" name="Text">
+    <comp lib="8" loc="(725,185)" name="Text">
       <a name="font" val="Monospaced bold 14"/>
       <a name="text" val="COMPARATOR"/>
     </comp>
@@ -26582,7 +26581,7 @@ ca00 ffff
       <a name="selloc" val="tr"/>
       <a name="width" val="9"/>
     </comp>
-    <comp lib="9" loc="(695,495)" name="Text">
+    <comp lib="8" loc="(695,495)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Note that this assumes one of the inputs is subnormal"/>
     </comp>
@@ -26947,7 +26946,7 @@ ca00 ffff
       <a name="type" val="output"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="9" loc="(810,345)" name="Text">
+    <comp lib="8" loc="(810,345)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="&lt;-- THIS IS A VERY PROBLEMATIC SOLUTION"/>
     </comp>
@@ -27216,15 +27215,15 @@ ca00 ffff
       <a name="selloc" val="tr"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="9" loc="(250,670)" name="Text">
+    <comp lib="8" loc="(250,670)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Two's Comp"/>
     </comp>
-    <comp lib="9" loc="(255,915)" name="Text">
+    <comp lib="8" loc="(255,915)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Return absolute value"/>
     </comp>
-    <comp lib="9" loc="(345,405)" name="Text">
+    <comp lib="8" loc="(345,405)" name="Text">
       <a name="font" val="Monospaced bold 14"/>
       <a name="text" val="SUBTRACTOR"/>
     </comp>
@@ -27785,11 +27784,11 @@ ca00 ffff
       <a name="facing" val="south"/>
       <a name="select" val="2"/>
     </comp>
-    <comp lib="9" loc="(385,485)" name="Text">
+    <comp lib="8" loc="(385,485)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="EQ"/>
     </comp>
-    <comp lib="9" loc="(725,185)" name="Text">
+    <comp lib="8" loc="(725,185)" name="Text">
       <a name="font" val="Monospaced bold 14"/>
       <a name="text" val="COMPARATOR"/>
     </comp>
@@ -29285,121 +29284,121 @@ ca00 ffff
       <a name="facing" val="south"/>
       <a name="select" val="2"/>
     </comp>
-    <comp lib="5" loc="(1030,1260)" name="Register">
+    <comp lib="4" loc="(1030,1260)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_3"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1030,1410)" name="Register">
+    <comp lib="4" loc="(1030,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_7"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1030,1560)" name="Register">
+    <comp lib="4" loc="(1030,1560)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_11"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1030,1710)" name="Register">
+    <comp lib="4" loc="(1030,1710)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_15"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1100,200)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1100,200)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1210,200)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1210,200)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1240,1610)" name="Register">
+    <comp lib="4" loc="(1240,1610)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MAR"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1320,200)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1320,200)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1380,1080)" name="Register">
+    <comp lib="4" loc="(1380,1080)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1790,1630)" name="Register">
+    <comp lib="4" loc="(1790,1630)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1830,1280)" name="Register">
+    <comp lib="4" loc="(1830,1280)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="STATUS_REG"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="width" val="1"/>
     </comp>
-    <comp lib="5" loc="(2010,860)" name="Register">
+    <comp lib="4" loc="(2010,860)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="OUTPUT_REG"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(400,1260)" name="Register">
+    <comp lib="4" loc="(400,1260)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_0"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(400,1410)" name="Register">
+    <comp lib="4" loc="(400,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_4"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(400,1560)" name="Register">
+    <comp lib="4" loc="(400,1560)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_8"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(400,1710)" name="Register">
+    <comp lib="4" loc="(400,1710)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_12"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(550,200)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(550,200)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(610,1260)" name="Register">
+    <comp lib="4" loc="(610,1260)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_1"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(610,1410)" name="Register">
+    <comp lib="4" loc="(610,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_5"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(610,1560)" name="Register">
+    <comp lib="4" loc="(610,1560)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_9"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(610,1710)" name="Register">
+    <comp lib="4" loc="(610,1710)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_13"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(640,390)" name="ROM">
+    <comp lib="4" loc="(640,390)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 16
 2001 2102 2203 2304 2405 2506 2607 2708
@@ -29418,311 +29417,311 @@ ca00 ffff
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelvisible" val="true"/>
     </comp>
-    <comp lib="5" loc="(660,200)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(660,200)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(770,200)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(770,200)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(820,1260)" name="Register">
+    <comp lib="4" loc="(820,1260)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_2"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(820,1410)" name="Register">
+    <comp lib="4" loc="(820,1410)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_6"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(820,1560)" name="Register">
+    <comp lib="4" loc="(820,1560)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_10"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(820,1710)" name="Register">
+    <comp lib="4" loc="(820,1710)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="REG_14"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(880,200)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(880,200)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(900,420)" name="Register">
+    <comp lib="4" loc="(900,420)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="CIR"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="5" loc="(920,690)" name="D Flip-Flop">
+    <comp lib="4" loc="(920,690)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="HLT_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 13"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(990,200)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(990,200)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="6" loc="(1010,780)" name="LED">
+    <comp lib="5" loc="(1010,780)" name="LED">
       <a name="facing" val="north"/>
       <a name="label" val="HLT_REG"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="6" loc="(1100,780)" name="LED">
+    <comp lib="5" loc="(1100,780)" name="LED">
       <a name="facing" val="north"/>
       <a name="label" val="CLK_L"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="6" loc="(1180,650)" name="DipSwitch">
+    <comp lib="5" loc="(1180,650)" name="DipSwitch">
       <a name="facing" val="west"/>
       <a name="label" val="AUTO"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
       <a name="number" val="1"/>
     </comp>
-    <comp lib="6" loc="(1190,530)" name="Button">
+    <comp lib="5" loc="(1190,530)" name="Button">
       <a name="facing" val="west"/>
       <a name="label" val="RESET"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(1190,580)" name="Button">
+    <comp lib="5" loc="(1190,580)" name="Button">
       <a name="facing" val="west"/>
       <a name="label" val="STEP"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(1300,2030)" name="7-Segment Display">
+    <comp lib="5" loc="(1300,2030)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="L_7_Segment_Display_1"/>
     </comp>
-    <comp lib="6" loc="(1360,2030)" name="7-Segment Display">
+    <comp lib="5" loc="(1360,2030)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="MAR_0"/>
     </comp>
-    <comp lib="6" loc="(1440,70)" name="7-Segment Display">
+    <comp lib="5" loc="(1440,70)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="CIR_3"/>
     </comp>
-    <comp lib="6" loc="(1500,70)" name="7-Segment Display">
+    <comp lib="5" loc="(1500,70)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="CIR_2"/>
     </comp>
-    <comp lib="6" loc="(1530,840)" name="LED">
+    <comp lib="5" loc="(1530,840)" name="LED">
       <a name="facing" val="north"/>
       <a name="label" val="HLT"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="west"/>
     </comp>
-    <comp lib="6" loc="(1560,70)" name="7-Segment Display">
+    <comp lib="5" loc="(1560,70)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="CIR_1"/>
     </comp>
-    <comp lib="6" loc="(1620,70)" name="7-Segment Display">
+    <comp lib="5" loc="(1620,70)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="CIR_0"/>
     </comp>
-    <comp lib="6" loc="(1720,450)" name="LED">
+    <comp lib="5" loc="(1720,450)" name="LED">
       <a name="label" val="PC_INCR"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1720,470)" name="LED">
+    <comp lib="5" loc="(1720,470)" name="LED">
       <a name="label" val="CIR_LOAD"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1720,490)" name="LED">
+    <comp lib="5" loc="(1720,490)" name="LED">
       <a name="label" val="REG_READ"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1720,530)" name="LED">
+    <comp lib="5" loc="(1720,530)" name="LED">
       <a name="label" val="REG_WRITE"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1810,570)" name="LED">
+    <comp lib="5" loc="(1810,570)" name="LED">
       <a name="label" val="MAR_LOAD"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1810,590)" name="LED">
+    <comp lib="5" loc="(1810,590)" name="LED">
       <a name="label" val="RAM_READ"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1810,610)" name="LED">
+    <comp lib="5" loc="(1810,610)" name="LED">
       <a name="label" val="RAM_WRITE"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1810,630)" name="LED">
+    <comp lib="5" loc="(1810,630)" name="LED">
       <a name="label" val="MBR_READ"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1810,650)" name="LED">
+    <comp lib="5" loc="(1810,650)" name="LED">
       <a name="label" val="ACC_READ"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1810,670)" name="LED">
+    <comp lib="5" loc="(1810,670)" name="LED">
       <a name="label" val="ACC_LOAD"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1810,690)" name="LED">
+    <comp lib="5" loc="(1810,690)" name="LED">
       <a name="label" val="OUT_LOAD"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1810,750)" name="LED">
+    <comp lib="5" loc="(1810,750)" name="LED">
       <a name="label" val="PC_LOAD"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1860,1010)" name="7-Segment Display">
+    <comp lib="5" loc="(1860,1010)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="ACC_1"/>
     </comp>
-    <comp lib="6" loc="(1920,1010)" name="7-Segment Display">
+    <comp lib="5" loc="(1920,1010)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="ACC_0"/>
     </comp>
-    <comp lib="6" loc="(1950,1310)" name="LED">
+    <comp lib="5" loc="(1950,1310)" name="LED">
       <a name="label" val="SR"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1950,1460)" name="7-Segment Display">
+    <comp lib="5" loc="(1950,1460)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="MBR_1"/>
     </comp>
-    <comp lib="6" loc="(2010,1460)" name="7-Segment Display">
+    <comp lib="5" loc="(2010,1460)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="MBR_0"/>
     </comp>
-    <comp lib="6" loc="(2020,190)" name="7-Segment Display">
+    <comp lib="5" loc="(2020,190)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="OUTPUT_1"/>
     </comp>
-    <comp lib="6" loc="(2080,190)" name="7-Segment Display">
+    <comp lib="5" loc="(2080,190)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="OUTPUT_0"/>
     </comp>
-    <comp lib="6" loc="(2170,1010)" name="7-Segment Display">
+    <comp lib="5" loc="(2170,1010)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="XY_1_x"/>
     </comp>
-    <comp lib="6" loc="(220,630)" name="7-Segment Display">
+    <comp lib="5" loc="(220,630)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="R_WRITE"/>
     </comp>
-    <comp lib="6" loc="(2210,420)" name="7-Segment Display">
+    <comp lib="5" loc="(2210,420)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="ALU_INSTR"/>
     </comp>
-    <comp lib="6" loc="(2210,730)" name="LED">
+    <comp lib="5" loc="(2210,730)" name="LED">
       <a name="label" val="ALU_READ"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(2230,1010)" name="7-Segment Display">
+    <comp lib="5" loc="(2230,1010)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="XY_0_y"/>
     </comp>
-    <comp lib="6" loc="(300,630)" name="7-Segment Display">
+    <comp lib="5" loc="(300,630)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="R_READ"/>
     </comp>
-    <comp lib="6" loc="(540,600)" name="7-Segment Display">
+    <comp lib="5" loc="(540,600)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="PC_1"/>
     </comp>
-    <comp lib="6" loc="(600,600)" name="7-Segment Display">
+    <comp lib="5" loc="(600,600)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="PC_0"/>
     </comp>
-    <comp lib="9" loc="(1325,1510)" name="Text">
+    <comp lib="8" loc="(1325,1510)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Memory Address Register"/>
     </comp>
-    <comp lib="9" loc="(1395,1790)" name="Text">
+    <comp lib="8" loc="(1395,1790)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Read MBR"/>
     </comp>
-    <comp lib="9" loc="(140,1600)" name="Text">
+    <comp lib="8" loc="(140,1600)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="WRITE COL"/>
     </comp>
-    <comp lib="9" loc="(1420,1065)" name="Text">
+    <comp lib="8" loc="(1420,1065)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Accumulator"/>
     </comp>
-    <comp lib="9" loc="(155,1455)" name="Text">
+    <comp lib="8" loc="(155,1455)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="READ COL"/>
     </comp>
-    <comp lib="9" loc="(1850,1805)" name="Text">
+    <comp lib="8" loc="(1850,1805)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Memory Buffer Register"/>
     </comp>
-    <comp lib="9" loc="(2055,120)" name="Text">
+    <comp lib="8" loc="(2055,120)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="OUTPUT"/>
     </comp>
-    <comp lib="9" loc="(210,585)" name="Text">
+    <comp lib="8" loc="(210,585)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="REG_WRITE"/>
     </comp>
-    <comp lib="9" loc="(2350,775)" name="Text">
+    <comp lib="8" loc="(2350,775)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="TOO ANNOYING"/>
     </comp>
-    <comp lib="9" loc="(285,300)" name="Text">
+    <comp lib="8" loc="(285,300)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="RESET_PC"/>
     </comp>
-    <comp lib="9" loc="(305,585)" name="Text">
+    <comp lib="8" loc="(305,585)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="REG_READ"/>
     </comp>
-    <comp lib="9" loc="(435,180)" name="Text">
+    <comp lib="8" loc="(435,180)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="INCREMENT"/>
     </comp>
-    <comp lib="9" loc="(585,1060)" name="Text">
+    <comp lib="8" loc="(585,1060)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="WRITE COL"/>
     </comp>
-    <comp lib="9" loc="(770,345)" name="Text">
+    <comp lib="8" loc="(770,345)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="READ"/>
     </comp>
-    <comp lib="9" loc="(820,1100)" name="Text">
+    <comp lib="8" loc="(820,1100)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="READ COL"/>
     </comp>
-    <comp lib="9" loc="(820,930)" name="Text">
+    <comp lib="8" loc="(820,930)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Register Bus"/>
     </comp>
-    <comp lib="9" loc="(860,80)" name="Text">
+    <comp lib="8" loc="(860,80)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="PROGRAM COUNTER"/>
     </comp>
@@ -31555,79 +31554,79 @@ ca00 ffff
     <comp lib="2" loc="(940,3090)" name="Priority Encoder">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="5" loc="(550,310)" name="D Flip-Flop">
+    <comp lib="4" loc="(550,310)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(650,310)" name="D Flip-Flop">
+    <comp lib="4" loc="(650,310)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(750,310)" name="D Flip-Flop">
+    <comp lib="4" loc="(750,310)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(850,310)" name="D Flip-Flop">
+    <comp lib="4" loc="(850,310)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="9" loc="(1965,1265)" name="Text">
+    <comp lib="8" loc="(1965,1265)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="EARLY INCREMENT PC"/>
     </comp>
-    <comp lib="9" loc="(2150,1265)" name="Text">
+    <comp lib="8" loc="(2150,1265)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="EARLY RESET RC"/>
     </comp>
-    <comp lib="9" loc="(2905,2815)" name="Text">
+    <comp lib="8" loc="(2905,2815)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="000 : -"/>
     </comp>
-    <comp lib="9" loc="(2905,2880)" name="Text">
+    <comp lib="8" loc="(2905,2880)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="011 : OR"/>
     </comp>
-    <comp lib="9" loc="(2905,2970)" name="Text">
+    <comp lib="8" loc="(2905,2970)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="111 : EQ"/>
     </comp>
-    <comp lib="9" loc="(2910,2900)" name="Text">
+    <comp lib="8" loc="(2910,2900)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="100 : AND"/>
     </comp>
-    <comp lib="9" loc="(2910,2925)" name="Text">
+    <comp lib="8" loc="(2910,2925)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="101 : XOR"/>
     </comp>
-    <comp lib="9" loc="(2925,1885)" name="Text">
+    <comp lib="8" loc="(2925,1885)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="CURRENTLY UNUSED"/>
     </comp>
-    <comp lib="9" loc="(2930,2785)" name="Text">
+    <comp lib="8" loc="(2930,2785)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ALU INSTRUCTION SET"/>
     </comp>
-    <comp lib="9" loc="(2935,2835)" name="Text">
+    <comp lib="8" loc="(2935,2835)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="001 : ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(2935,2855)" name="Text">
+    <comp lib="8" loc="(2935,2855)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="010 : ADD (FP)"/>
     </comp>
-    <comp lib="9" loc="(2950,2945)" name="Text">
+    <comp lib="8" loc="(2950,2945)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="110 : RIGHT ROTATE"/>
     </comp>
-    <comp lib="9" loc="(450,2695)" name="Text">
+    <comp lib="8" loc="(450,2695)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="WRITE"/>
     </comp>
-    <comp lib="9" loc="(470,2470)" name="Text">
+    <comp lib="8" loc="(470,2470)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="READ"/>
     </comp>
-    <comp lib="9" loc="(705,295)" name="Text">
+    <comp lib="8" loc="(705,295)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="RING COUNTER"/>
     </comp>
@@ -34786,102 +34785,102 @@ ca00 ffff
     <comp lib="2" loc="(1430,1640)" name="Multiplexer">
       <a name="width" val="8"/>
     </comp>
-    <comp lib="5" loc="(1100,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1100,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1210,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1210,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1240,1650)" name="Register">
+    <comp lib="4" loc="(1240,1650)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1320,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1320,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1380,1120)" name="Register">
+    <comp lib="4" loc="(1380,1120)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1790,1670)" name="Register">
+    <comp lib="4" loc="(1790,1670)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1820,870)" name="Register">
+    <comp lib="4" loc="(1820,870)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="OUTPUT_REG"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(1830,1320)" name="Register">
+    <comp lib="4" loc="(1830,1320)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="STATUS_REG"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
       <a name="width" val="1"/>
     </comp>
-    <comp lib="5" loc="(550,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(550,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(660,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(660,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(770,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(770,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(880,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(880,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(900,420)" name="Register">
+    <comp lib="4" loc="(900,420)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="5" loc="(920,690)" name="D Flip-Flop">
+    <comp lib="4" loc="(920,690)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(990,180)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(990,180)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="9" loc="(1255,1780)" name="Text">
+    <comp lib="8" loc="(1255,1780)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Memory Address Register"/>
     </comp>
-    <comp lib="9" loc="(1405,1105)" name="Text">
+    <comp lib="8" loc="(1405,1105)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Accumulator"/>
     </comp>
-    <comp lib="9" loc="(1835,1835)" name="Text">
+    <comp lib="8" loc="(1835,1835)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Memory Buffer Register"/>
     </comp>
-    <comp lib="9" loc="(405,155)" name="Text">
+    <comp lib="8" loc="(405,155)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="INCREMENT"/>
     </comp>
-    <comp lib="9" loc="(430,250)" name="Text">
+    <comp lib="8" loc="(430,250)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="RESET_PC"/>
     </comp>
-    <comp lib="9" loc="(770,325)" name="Text">
+    <comp lib="8" loc="(770,325)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="READ"/>
     </comp>
-    <comp lib="9" loc="(820,970)" name="Text">
+    <comp lib="8" loc="(820,970)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="Register Bus"/>
     </comp>
-    <comp lib="9" loc="(860,60)" name="Text">
+    <comp lib="8" loc="(860,60)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="PROGRAM COUNTER"/>
     </comp>
-    <comp lib="9" loc="(965,780)" name="Text">
+    <comp lib="8" loc="(965,780)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="HLT Register"/>
     </comp>
@@ -36308,52 +36307,52 @@ ca00 ffff
     <comp lib="2" loc="(770,1030)" name="Demultiplexer">
       <a name="select" val="4"/>
     </comp>
-    <comp lib="5" loc="(930,1050)" name="Register">
+    <comp lib="4" loc="(930,1050)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1160)" name="Register">
+    <comp lib="4" loc="(930,1160)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1270)" name="Register">
+    <comp lib="4" loc="(930,1270)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1380)" name="Register">
+    <comp lib="4" loc="(930,1380)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1490)" name="Register">
+    <comp lib="4" loc="(930,1490)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1600)" name="Register">
+    <comp lib="4" loc="(930,1600)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,170)" name="Register">
+    <comp lib="4" loc="(930,170)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1710)" name="Register">
+    <comp lib="4" loc="(930,1710)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,1820)" name="Register">
+    <comp lib="4" loc="(930,1820)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,280)" name="Register">
+    <comp lib="4" loc="(930,280)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,390)" name="Register">
+    <comp lib="4" loc="(930,390)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,500)" name="Register">
+    <comp lib="4" loc="(930,500)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,610)" name="Register">
+    <comp lib="4" loc="(930,610)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,720)" name="Register">
+    <comp lib="4" loc="(930,720)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,830)" name="Register">
+    <comp lib="4" loc="(930,830)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(930,940)" name="Register">
+    <comp lib="4" loc="(930,940)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <wire from="(1000,1040)" to="(1000,1150)"/>
@@ -36932,7 +36931,7 @@ ca00 ffff
       <a name="select" val="2"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="5" loc="(1080,850)" name="ROM">
+    <comp lib="4" loc="(1080,850)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 8
 20 1 2d 0 2e ff 2f 1
@@ -36954,130 +36953,130 @@ f3 51 1f b0 d 62*0 3d f0
 3d fd 3d fe 3d ff b0 d
 </a>
     </comp>
-    <comp lib="5" loc="(1360,1010)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1360,1010)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1430,1010)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(1430,1010)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(920,1080)" name="J-K Flip-Flop">
+    <comp lib="4" loc="(920,1080)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="6" loc="(1190,630)" name="Button">
+    <comp lib="5" loc="(1190,630)" name="Button">
       <a name="label" val="STEP"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1190,670)" name="DipSwitch">
+    <comp lib="5" loc="(1190,670)" name="DipSwitch">
       <a name="facing" val="east"/>
       <a name="label" val="AUTO"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="west"/>
       <a name="number" val="1"/>
     </comp>
-    <comp lib="6" loc="(1210,680)" name="LED">
+    <comp lib="5" loc="(1210,680)" name="LED">
       <a name="label" val="AUTO_STATUS"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="6" loc="(1290,790)" name="Button">
+    <comp lib="5" loc="(1290,790)" name="Button">
       <a name="label" val="RESET"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(1490,660)" name="LED">
+    <comp lib="5" loc="(1490,660)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="CLK_L"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(2470,520)" name="DipSwitch">
+    <comp lib="5" loc="(2470,520)" name="DipSwitch">
       <a name="facing" val="south"/>
       <a name="label" val="DipSwitch_2"/>
       <a name="number" val="4"/>
     </comp>
-    <comp lib="6" loc="(2600,370)" name="DipSwitch">
+    <comp lib="5" loc="(2600,370)" name="DipSwitch">
       <a name="facing" val="south"/>
       <a name="label" val="DipSwitch_1"/>
       <a name="number" val="2"/>
     </comp>
-    <comp lib="6" loc="(2750,190)" name="7-Segment Display">
+    <comp lib="5" loc="(2750,190)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_5"/>
     </comp>
-    <comp lib="6" loc="(2810,190)" name="7-Segment Display">
+    <comp lib="5" loc="(2810,190)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_4"/>
     </comp>
-    <comp lib="6" loc="(2870,190)" name="7-Segment Display">
+    <comp lib="5" loc="(2870,190)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_3"/>
     </comp>
-    <comp lib="6" loc="(2930,190)" name="7-Segment Display">
+    <comp lib="5" loc="(2930,190)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_2"/>
     </comp>
-    <comp lib="6" loc="(2990,190)" name="7-Segment Display">
+    <comp lib="5" loc="(2990,190)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_1"/>
     </comp>
-    <comp lib="6" loc="(3050,190)" name="7-Segment Display">
+    <comp lib="5" loc="(3050,190)" name="7-Segment Display">
       <a name="active" val="false"/>
       <a name="decimalPoint" val="false"/>
       <a name="label" val="DISPLAY_0"/>
     </comp>
-    <comp lib="6" loc="(3310,500)" name="LED">
+    <comp lib="5" loc="(3310,500)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_8"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3360,500)" name="LED">
+    <comp lib="5" loc="(3360,500)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_7"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3410,500)" name="LED">
+    <comp lib="5" loc="(3410,500)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_6"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3460,500)" name="LED">
+    <comp lib="5" loc="(3460,500)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_5"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3510,500)" name="LED">
+    <comp lib="5" loc="(3510,500)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_4"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3560,500)" name="LED">
+    <comp lib="5" loc="(3560,500)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_3"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3610,500)" name="LED">
+    <comp lib="5" loc="(3610,500)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_2"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(3660,500)" name="LED">
+    <comp lib="5" loc="(3660,500)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="LED_1"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(970,1060)" name="LED">
+    <comp lib="5" loc="(970,1060)" name="LED">
       <a name="facing" val="south"/>
       <a name="label" val="BOOT_FINISH"/>
       <a name="labelfont" val="Monospaced bold 16"/>
@@ -37877,68 +37876,68 @@ f3 51 1f b0 d 62*0 3d f0
     <comp lib="2" loc="(2420,2470)" name="Multiplexer">
       <a name="width" val="8"/>
     </comp>
-    <comp lib="5" loc="(1350,1200)" name="D Flip-Flop">
+    <comp lib="4" loc="(1350,1200)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="5" loc="(1400,2360)" name="Register">
+    <comp lib="4" loc="(1400,2360)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="RTB_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(1400,2480)" name="Register">
+    <comp lib="4" loc="(1400,2480)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="RTB_B"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(2130,2180)" name="Register">
+    <comp lib="4" loc="(2130,2180)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="OUTPUT_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(2130,2300)" name="Register">
+    <comp lib="4" loc="(2130,2300)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MWB_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(2130,2420)" name="Register">
+    <comp lib="4" loc="(2130,2420)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MWB_B"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(2130,2540)" name="Register">
+    <comp lib="4" loc="(2130,2540)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MAR_A"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(2130,2660)" name="Register">
+    <comp lib="4" loc="(2130,2660)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="MAR_B"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="5" loc="(2630,1730)" name="Register">
+    <comp lib="4" loc="(2630,1730)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="ACCUMULATOR"/>
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
-    <comp lib="5" loc="(2750,1870)" name="Register">
+    <comp lib="4" loc="(2750,1870)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="STATUS_REGISTER"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="trigger" val="falling"/>
       <a name="width" val="1"/>
     </comp>
-    <comp lib="9" loc="(1400,1280)" name="Text">
+    <comp lib="8" loc="(1400,1280)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="HLT Register"/>
     </comp>
-    <comp lib="9" loc="(2355,2380)" name="Text">
+    <comp lib="8" loc="(2355,2380)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="RAM_W"/>
     </comp>
