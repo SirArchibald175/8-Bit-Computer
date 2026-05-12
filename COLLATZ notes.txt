@@ -1,0 +1,28 @@
+2000 ## comp reg
+2101 ## outer loop i needs to start at 1
+2200 ## inner value
+2300 ## multiplication register
+2f54 ## outer loop max
+2e01 ## increment
+2d7f ## bitmask
+c100 ## output current i
+4010 ## outer loop start # load r1 to r0
+bf1b # branch to outer loop end if rf = r0
+4012 ## set value to outer loop i
+c200 ## inner loop start ## output value
+4020 ## move value to cmp register
+be18 ## if value == increment 1, branch to inner loop end
+802e ## AND value with increment (1) and put it in cmp
+be13 ## branch to odd if comp == 1
+a201 ### EVEN ### right rotate value by 1
+822d ### AND value with 7F (make last digit 0)
+b00b # Branch to inner loop start
+4023 ### ODD ### load multiplication register with value
+5332 ### add value to  multiplication register
+5332 ### add value to  multiplication register
+523e ### increment value in multiplication register and store in value
+b00b Branch to inner loop start
+511e # inner loop end # increment outer loop
+c100 # output 
+b008 # branch to outer loop start
+ffff # outer loop end # halt

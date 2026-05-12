@@ -1,0 +1,40 @@
+2000 ## comp reg
+2101 ## outer loop i needs to start at 1
+2200 ## inner value
+2300 ## multiplication register
+2fff ## outer loop max
+2e01 ## increment
+
+c100 ## output 
+
+0000 ## outer loop start
+4??? #load r1 to r0
+bf?? #branch to outer loop end if rf = r0
+
+0000 ## inner loop start
+c200 ## output value
+4???## move value to cmp register
+be?? ## if value == increment 1, branch to end of inner loop
+
+4??? ## set value to outerloop i
+???? ## AND value with increment (1) and put it in cmp
+be?? ## branch to odd if comp == 1
+
+0000 ### EVEN
+???? ### right rotate value
+???? ### AND value with 7F (make last digit 0)
+b??? Branch to inner loop start
+
+0000 ### ODD
+4??? ### load multiplication register with value
+5??? ### add value to  multiplication register
+5??? ### add value to  multiplication register
+5??? ### increment value in multiplication register and store in value
+b??? Branch to inner loop start
+
+0000 # inner loop end
+511e # increment outer loop
+c100 # output 
+b0?? # branch to outer loop start
+0000 # outer loop end
+ffff # halt

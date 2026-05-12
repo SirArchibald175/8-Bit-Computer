@@ -1,0 +1,68 @@
+2042
+21a4
+22f2
+2320
+2434
+2536
+26f4
+270e
+28a2
+294c
+b00c # auto passing branch to A
+ffff # F (0b) # shouldnt halt
+2000 # A (0c) #should do this
+2111
+b90b # failing branch to F
+2222 # should do this
+2333
+b80b # failing branch
+b01b # passing branch to C
+ffff
+2888 # G (14)
+2ffa # set f to wrong value to be cleared later
+b70b failing branch
+2999
+b90b failing branch
+ba27 branch to H
+2012 # shouldnt happen
+2444 # C (1b)
+2555
+bb1e # passing branch to next instr D
+bc21 # D (1E) # passing branch to another branch B
+2fff # shouldnt ever happen
+2eee # shouldnt ever happen
+b024 # B (21) # branch past instructinos we dont want to happen to E
+2ddd
+2ccc
+2666 # E (24)
+2777 
+bd14 # Branch back in time to G
+b10b # H (27) #Failing branch
+2aaf # the proof of correct end state
+be2f # Branch to j
+2014 # Shouldnt happen
+2143 # shouldnt happen
+22ae # 
+2335
+20fa
+bf39 # J (2f) # branch past to I
+2f00
+cf00
+ce00
+cd00
+cc00
+cb00
+ca00 # Final output 
+ffff # End state halt
+2000 # I (39) # set line J branch register
+c000
+c100
+c200
+c300
+c400
+c500
+c600
+c700
+c800
+c900
+b02f # Branch to J
