@@ -13,9 +13,6 @@
     <tool name="Clock">
       <a name="appearance" val="classic"/>
     </tool>
-    <tool name="Constant">
-      <a name="facing" val="north"/>
-    </tool>
   </lib>
   <lib desc="#Gates" name="1">
     <tool name="NOT Gate">
@@ -92,7 +89,7 @@
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="downloadBoard" val="DE10-3701-upd-9-14"/>
     <a name="downloadFrequency" val="127.99967232083885"/>
-    <a name="simulationFrequency" val="128.0"/>
+    <a name="simulationFrequency" val="64.0"/>
     <boardmap boardname="DE10-3701-upd-9-14">
       <mc key="/AUTO" pmap="355_346_9"/>
       <mc key="/AUTO_STATUS" pmap="355_325_9"/>
@@ -1628,38 +1625,10 @@
     <comp lib="5" loc="(1500,890)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 16
-b0ff b0fe b0fd b0fc b0fb b0fa b0f9 b0f8
-b0f7 b0f6 b0f5 b0f4 b0f3 b0f2 b0f1 b0f0
-b0ef b0ee b0ed b0ec b0eb b0ea b0e9 b0e8
-b0e7 b0e6 b0e5 b0e4 b0e3 b0e2 b0e1 b0e0
-b0df b0de b0dd b0dc b0db b0da b0d9 b0d8
-b0d7 b0d6 b0d5 b0d4 b0d3 b0d2 b0d1 b0d0
-b0cf b0ce b0cd b0cc b0cb b0ca b0c9 b0c8
-b0c7 b0c6 b0c5 b0c4 b0c3 b0c2 b0c1 b0c0
-b0bf b0be b0bd b0bc b0bb b0ba b0b9 b0b8
-b0b7 b0b6 b0b5 b0b4 b0b3 b0b2 b0b1 b0b0
-b0af b0ae b0ad b0ac b0ab b0aa b0a9 b0a8
-b0a7 b0a6 b0a5 b0a4 b0a3 b0a2 b0a1 b0a0
-b09f b09e b09d b09c b09b b09a b099 b098
-b097 b096 b095 b094 b093 b092 b091 b090
-b08f b08e b08d b08c b08b b08a b089 b088
-b087 b086 b085 b084 b083 b082 b081 b080
-ffff b07f b07e b07d b07c b07b b07a b079
-b078 b077 b076 b075 b074 b073 b072 b071
-b070 b06f b06e b06d b06c b06b b06a b069
-b068 b067 b066 b065 b064 b063 b062 b061
-b060 b05f b05e b05d b05c b05b b05a b059
-b058 b057 b056 b055 b054 b053 b052 b051
-b050 b04f b04e b04d b04c b04b b04a b049
-b048 b047 b046 b045 b044 b043 b042 b041
-b040 b03f b03e b03d b03c b03b b03a b039
-b038 b037 b036 b035 b034 b033 b032 b031
-b030 b02f b02e b02d b02c b02b b02a b029
-b028 b027 b026 b025 b024 b023 b022 b021
-b020 b01f b01e b01d b01c b01b b01a b019
-b018 b017 b016 b015 b014 b013 b012 b011
-b010 b00f b00e b00d b00c b00b b00a b009
-b008 b007 b006 b005 b004 b003 b002 b001
+2000 2101 2200 2300 2f54 2e01 2d7f c100
+4010 bf1b 4012 c200 4020 be18 802e be13
+a201 822d b00b 4023 5332 5332 523e b00b
+511e c100 b008 ffff
 </a>
       <a name="dataWidth" val="16"/>
       <a name="label" val="INSTRUCTIONS"/>
@@ -2172,10 +2141,10 @@ b008 b007 b006 b005 b004 b003 b002 b001
     <comp lib="5" loc="(1500,890)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 8 16
-2f63 2e47 2d9b 2c55 2bed 2a12 cf00 ce00
-cd00 cc00 cb00 ca00 50dc 51ef 8201 93ba
-a004 8430 7542 c000 c100 c200 c300 c400
-c500 ffff
+2000 2101 2200 2300 2f54 2e01 2d7f c100
+4010 bf1b 4012 c200 4020 be18 802e be13
+a201 822d b00b 4023 5332 5332 523e b00b
+511e c100 b008 ffff
 </a>
       <a name="dataWidth" val="16"/>
       <a name="label" val="INSTRUCTIONS"/>
@@ -6294,12 +6263,12 @@ ca00 ffff
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
     <comp lib="0" loc="(1560,310)" name="Splitter">
-      <a name="appear" val="right"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="spacing" val="3"/>
     </comp>
     <comp lib="0" loc="(1560,310)" name="Splitter">
+      <a name="appear" val="right"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="spacing" val="3"/>
@@ -9094,8 +9063,8 @@ ca00 ffff
       <circ-port dir="in" pin="460,660" x="50" y="120"/>
       <circ-port dir="in" pin="460,710" x="50" y="40"/>
       <circ-port dir="in" pin="460,740" x="50" y="140"/>
-      <circ-port dir="in" pin="680,570" x="50" y="100"/>
-      <circ-port dir="in" pin="690,530" x="50" y="60"/>
+      <circ-port dir="in" pin="700,520" x="50" y="60"/>
+      <circ-port dir="in" pin="770,560" x="50" y="100"/>
       <circ-port dir="out" pin="820,800" x="270" y="80"/>
     </appear>
     <comp lib="0" loc="(460,660)" name="Pin">
@@ -9114,23 +9083,20 @@ ca00 ffff
       <a name="labelfont" val="Monospaced bold 16"/>
     </comp>
     <comp lib="0" loc="(490,630)" name="Constant"/>
-    <comp lib="0" loc="(680,570)" name="Pin">
+    <comp lib="0" loc="(700,520)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="OVERWRITE"/>
+      <a name="labelfont" val="Monospaced bold 16"/>
+    </comp>
+    <comp lib="0" loc="(760,540)" name="Constant">
+      <a name="value" val="0x0"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(770,560)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="OVERWRITE_VALUE"/>
       <a name="labelfont" val="Monospaced bold 16"/>
       <a name="width" val="8"/>
-    </comp>
-    <comp lib="0" loc="(690,530)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="south"/>
-      <a name="label" val="OVERWRITE"/>
-      <a name="labelfont" val="Monospaced bold 16"/>
-    </comp>
-    <comp lib="0" loc="(780,530)" name="Splitter">
-      <a name="appear" val="right"/>
-      <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
     </comp>
     <comp lib="0" loc="(820,800)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -9198,13 +9164,14 @@ ca00 ffff
       <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(840,550)" name="AND Gate">
-      <a name="width" val="8"/>
-    </comp>
     <comp lib="1" loc="(930,630)" name="AND Gate">
       <a name="facing" val="north"/>
       <a name="inputs" val="3"/>
       <a name="size" val="30"/>
+    </comp>
+    <comp lib="2" loc="(840,550)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="8"/>
     </comp>
     <comp lib="5" loc="(1080,620)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
@@ -9347,50 +9314,34 @@ ca00 ffff
     <wire from="(660,610)" to="(760,610)"/>
     <wire from="(660,680)" to="(660,690)"/>
     <wire from="(660,690)" to="(770,690)"/>
-    <wire from="(680,570)" to="(790,570)"/>
-    <wire from="(690,530)" to="(690,560)"/>
-    <wire from="(690,560)" to="(700,560)"/>
     <wire from="(690,630)" to="(690,660)"/>
     <wire from="(690,660)" to="(700,660)"/>
     <wire from="(690,740)" to="(690,750)"/>
     <wire from="(690,750)" to="(790,750)"/>
-    <wire from="(700,550)" to="(700,560)"/>
-    <wire from="(700,560)" to="(710,560)"/>
+    <wire from="(700,520)" to="(820,520)"/>
     <wire from="(700,660)" to="(700,740)"/>
     <wire from="(700,740)" to="(800,740)"/>
-    <wire from="(710,550)" to="(710,560)"/>
-    <wire from="(710,560)" to="(720,560)"/>
     <wire from="(710,630)" to="(730,630)"/>
     <wire from="(710,660)" to="(710,710)"/>
     <wire from="(710,710)" to="(820,710)"/>
-    <wire from="(720,550)" to="(720,560)"/>
-    <wire from="(720,560)" to="(730,560)"/>
     <wire from="(720,660)" to="(720,730)"/>
-    <wire from="(730,550)" to="(730,560)"/>
-    <wire from="(730,560)" to="(740,560)"/>
     <wire from="(730,630)" to="(730,650)"/>
     <wire from="(730,630)" to="(740,630)"/>
     <wire from="(730,650)" to="(730,730)"/>
     <wire from="(730,650)" to="(740,650)"/>
     <wire from="(730,730)" to="(830,730)"/>
-    <wire from="(740,550)" to="(740,560)"/>
-    <wire from="(740,560)" to="(750,560)"/>
     <wire from="(740,670)" to="(740,700)"/>
     <wire from="(740,700)" to="(850,700)"/>
-    <wire from="(750,550)" to="(750,560)"/>
-    <wire from="(750,560)" to="(760,560)"/>
     <wire from="(750,590)" to="(750,600)"/>
     <wire from="(750,590)" to="(850,590)"/>
-    <wire from="(760,550)" to="(760,560)"/>
-    <wire from="(760,560)" to="(770,560)"/>
+    <wire from="(760,540)" to="(810,540)"/>
     <wire from="(760,600)" to="(760,610)"/>
     <wire from="(760,600)" to="(860,600)"/>
-    <wire from="(770,550)" to="(770,560)"/>
+    <wire from="(770,560)" to="(810,560)"/>
     <wire from="(770,610)" to="(770,620)"/>
     <wire from="(770,610)" to="(870,610)"/>
     <wire from="(770,680)" to="(770,690)"/>
     <wire from="(770,690)" to="(880,690)"/>
-    <wire from="(780,530)" to="(790,530)"/>
     <wire from="(790,750)" to="(790,760)"/>
     <wire from="(790,760)" to="(890,760)"/>
     <wire from="(800,630)" to="(800,660)"/>
@@ -9399,6 +9350,7 @@ ca00 ffff
     <wire from="(800,750)" to="(900,750)"/>
     <wire from="(810,660)" to="(810,740)"/>
     <wire from="(810,740)" to="(910,740)"/>
+    <wire from="(820,520)" to="(820,530)"/>
     <wire from="(820,630)" to="(840,630)"/>
     <wire from="(820,660)" to="(820,710)"/>
     <wire from="(820,710)" to="(930,710)"/>
@@ -10988,15 +10940,15 @@ ca00 ffff
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="001 : ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(585,1366)" name="Text">
-      <a name="font" val="Monospaced bold 16"/>
-      <a name="text" val="ROTATE"/>
-    </comp>
-    <comp lib="9" loc="(588,1087)" name="Text">
+    <comp lib="9" loc="(585,1085)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="XOR"/>
     </comp>
-    <comp lib="9" loc="(588,531)" name="Text">
+    <comp lib="9" loc="(585,1365)" name="Text">
+      <a name="font" val="Monospaced bold 16"/>
+      <a name="text" val="ROTATE"/>
+    </comp>
+    <comp lib="9" loc="(585,530)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="OR"/>
     </comp>
@@ -11004,15 +10956,15 @@ ca00 ffff
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="EQ"/>
     </comp>
-    <comp lib="9" loc="(591,811)" name="Text">
+    <comp lib="9" loc="(590,810)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="AND"/>
     </comp>
-    <comp lib="9" loc="(596,284)" name="Text">
+    <comp lib="9" loc="(595,280)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ADD (TC)"/>
     </comp>
-    <comp lib="9" loc="(598,425)" name="Text">
+    <comp lib="9" loc="(595,425)" name="Text">
       <a name="font" val="Monospaced bold 16"/>
       <a name="text" val="ADD (FP)"/>
     </comp>
